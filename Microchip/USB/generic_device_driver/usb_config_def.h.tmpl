@@ -1,0 +1,242 @@
+/******************************************************************************
+
+    USB Generic Device Configuration Template
+    
+This file provides a template for the configuration options for a generic USB
+device.
+
+ * Filename:        usb_config.c
+ * Dependancies:    TBD
+ * Processor:       TBD
+ * Hardware:        TBD
+ * Assembler:       TBD
+ * Linker:          TBD
+ * Company:         Microchip Technology, Inc.
+
+Software License Agreement
+
+The software supplied herewith by Microchip Technology Incorporated
+(the “Company”) for its PICmicro® Microcontroller is intended and
+supplied to you, the Company’s customer, for use solely and
+exclusively on Microchip PICmicro Microcontroller products. The
+software is owned by the Company and/or its supplier, and is
+protected under applicable copyright laws. All rights are reserved.
+Any use in violation of the foregoing restrictions may subject the
+user to criminal sanctions under applicable laws, as well as to
+civil liability for the breach of the terms and conditions of this
+license.
+
+THIS SOFTWARE IS PROVIDED IN AN “AS IS” CONDITION. NO WARRANTIES,
+WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED
+TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. THE COMPANY SHALL NOT,
+IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL OR
+CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
+
+Author          Date    Comments
+--------------------------------------------------------------------------------
+BC           11-10-2006 Initial Creation
+
+*******************************************************************************/
+
+#ifndef _USB_CONFIG_H_
+#define _USB_CONFIG_H_
+
+/**************************
+ * USB Role Configuration *
+ **************************/
+
+/* USB Role
+ *
+ * The following macros determine what role this application will play 
+ * on the USB - whether it is a USB peripheral device (USB_SUPPORT_DEVICE),
+ * a USB host (USB_SUPPORT_HOST) or a dual-role device (USB_SUPPORT_OTG).
+ */
+#define USB_SUPPORT_DEVICE
+
+
+/* USB_DEV_EVENT_HANDLER
+ *
+ * This macro defines the name of the bus-event-handling function for the
+ * device-side support layer.  If devicd functionality is not supported
+ * it may be NULL.
+ */
+ 
+#define USB_DEV_EVENT_HANDLER   USBDEVHandleBusEvent
+
+
+/* USB_HOST_EVENT_HANDLER
+ *
+ * This macro defines the name of the bus-event-handling function for the
+ * host-side support layer.  If host functionality is not supported it 
+ * may be NULL.
+ */
+
+#define USB_HOST_EVENT_HANDLER  NULL
+
+
+/******************************************
+ * USB Endpoint & Interface Configuration *
+ ******************************************/
+
+/* USB_DEV_HIGHEST_EP_NUMBER
+ *
+ * This macro defines the highest endpoint number used.
+ *
+ * Note: The device layer will allocate RAM for an array of pointers 
+ * for every endpoint (except endpoint 0).
+ */
+ 
+#define USB_DEV_HIGHEST_EP_NUMBER   3
+
+
+/* USB_MAX_NUM_PIPES
+ *
+ * A pipe is a virtual connection between two endpoints, one in the host
+ * and one the device.  Data flows through a pipe in a single direction 
+ * from one endpoint to the other.  This configures the maximum number of
+ * pipes that the system will support (for both host and device 
+ * operation).
+ *
+ * Note: Endpoint 0 automatically has 2 pipes (IN and OUT) and these 
+ * must be included in USB_MAX_NUM_PIPES.
+ */
+ 
+#define USB_MAX_NUM_PIPES   5  // 32 is the max supported by HW
+
+
+/* USB_DEV_SUPPORTS_ALT_INTERFACES
+ *
+ * Allows the device layer to support peripheral devices that have
+ * alternate interfaces.  This support requires an additional 60 bytes
+ * of RAM space.
+ */
+
+//#define USB_DEV_SUPPORTS_ALT_INTERFACES
+
+
+/* USB_DEV_EP0_MAX_PACKET_SIZE
+ *
+ * This macro defines the maximum packet size allowed for endpoint 0.
+ * It must be defined as either 8, 16, 32, or 64 bytes.
+ *
+ * Note: The device layer (if supported) will statically allocate an 
+ * endpoint buffer of this size.
+ */
+ 
+#define USB_DEV_EP0_MAX_PACKET_SIZE 8
+
+
+/******************
+ * User Functions *
+ ******************/
+
+/* USB_DEV_GET_DESCRIPTOR_FUNC
+ *
+ * This macro defines the name of the routine that provides the 
+ * descriptors to the device layer.  This routine must be implemented by
+ * the application.  The signature of the function must match that 
+ * defined by the USBDEVGetDescriptorCallout type in device.h
+ */
+ 
+#define USB_DEV_GET_DESCRIPTOR_FUNC USBDEVGetDescriptor
+
+
+/* USB_DEV_GET_EP_CONFIG_TABLE_FUNC
+ * 
+ * This macro defines the name of the routine that provides a pointer
+ * to the endpoint configuration table used to configure endpoints 
+ * as desired when operating in device mode.
+ *
+ * Note: It may be NULL if the application does not support device 
+ * functionality (if host only).
+ */
+ 
+#define USB_DEV_GET_EP_CONFIG_TABLE_FUNC USBDEVGetEpConfigurationTable
+ 
+
+/* USB_DEV_GET_FUNCTION_DRIVER_TABLE_FUNC
+ *
+ * This macro defines the name of the routine that provides the pointer
+ * to the function-driver table.
+ *
+ * Note: It may be NULL if the application does not support device 
+ * functionality (if host only).
+ */
+ 
+#define USB_DEV_GET_FUNCTION_DRIVER_TABLE_FUNC USBDEVGetFunctionDriverTable
+
+
+/**************
+ * Miscellany *
+ **************/
+ 
+/* USB_DEV_SELF_POWERED
+ *
+ * This should be defined if the system is self powered when acting as a
+ * USB peripheral device.
+ *
+ * Note: Must match the information provided in the descriptors.
+ */
+ 
+#define USB_DEV_SELF_POWERED
+
+
+/* USB_DEV_SUPPORT_REMOTE_WAKEUP
+ *
+ * This should be defined if the system is to support remotely waking
+ * up a host when acting as a device.
+ */
+ 
+#define USB_DEV_SUPPORT_REMOTE_WAKEUP
+
+
+/* USB_SAFE_MODE
+ *
+ * Define this macro to enable parameter and bounds checking in various
+ * places throughout the USB SW stack.  This feature can be removed for 
+ * efficiency by not defining this label once careful testing and debugging
+ * have been done.
+ */
+ 
+#define USB_SAFE_MODE
+
+#if defined(__18CXX)
+    #define LANGID_LENGTH 1
+    #define STRING_LENGH 1
+    #define PHYSICAL_INFO_LENGH 1
+#else
+    #define LANGID_LENGTH 0
+    #define STRING_LENGH 0
+    #define PHYSICAL_INFO_LENGH 0
+#endif
+
+/******************************
+ * CDC Specific Configuration *
+ ******************************/
+
+/* CDC */
+#define CDC_COMM_INTF_ID        0
+#define CDC_INT_EP_NUM          2
+#define CDC_INT_EP_SIZE         8
+
+#define CDC_DATA_INTF_ID        1
+#define CDC_BULK_EP_NUM         3
+#define CDC_BULK_OUT_EP_SIZE    64
+#define CDC_BULK_IN_EP_SIZE     64
+
+/* Default Line Coding */
+#define CDC_DEFAULT_BPS         115200
+#define CDC_DEFAULT_FORMAT      0       // 1 stop bit
+#define CDC_DEFAULT_PARITY      0       // No parity
+#define CDC_DEFAULT_NUM_BITS    8       // 8-bits per word
+
+/* Identifies the application's USB-event-handling function. */
+#define CDC_APP_EVENT_HANDLING_FUNC CdcDemoEventHandler
+
+
+#endif // _USB_CONFIG_H_
+/*************************************************************************
+ * EOF USBConfigDef.h
+ */
+

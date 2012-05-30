@@ -1,0 +1,2174 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Release%20Notes%20v1.04_files/filelist.xml">
+<title>Release Notes for MCHPFSUSB v2.3</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="country-region"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceType"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceName"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Microchip</o:Author>
+  <o:LastAuthor>C13331</o:LastAuthor>
+  <o:Revision>5</o:Revision>
+  <o:TotalTime>1005</o:TotalTime>
+  <o:Created>2008-12-05T22:53:00Z</o:Created>
+  <o:LastSaved>2008-12-05T23:17:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>4446</o:Words>
+  <o:Characters>25343</o:Characters>
+  <o:Company>Microchip Technology Inc</o:Company>
+  <o:Lines>211</o:Lines>
+  <o:Paragraphs>59</o:Paragraphs>
+  <o:CharactersWithSpaces>29730</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+ <o:CustomDocumentProperties>
+  <o:_DocHome dt:dt="float">-168058582</o:_DocHome>
+ </o:CustomDocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>90</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin-top:5.0pt;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:KO;}
+h1
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.3in;
+	text-indent:-.3in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:14.0pt;
+	font-family:Arial;
+	mso-fareast-language:KO;
+	font-weight:bold;}
+h2
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.4in;
+	text-indent:-.4in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:12.0pt;
+	font-family:Arial;
+	mso-fareast-language:KO;
+	font-weight:bold;
+	font-style:italic;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;
+	mso-fareast-language:KO;
+	font-weight:bold;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:KO;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:5.0pt;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:10.0pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:KO;}
+p.MsoListBullet, li.MsoListBullet, div.MsoListBullet
+	{margin-top:5.0pt;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:KO;}
+p.MsoListBullet2, li.MsoListBullet2, div.MsoListBullet2
+	{margin-top:5.0pt;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:.5in;
+	text-indent:-.25in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:KO;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:KO;}
+p.heading0, li.heading0, div.heading0
+	{mso-style-name:heading0;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:14.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:KO;
+	font-weight:bold;}
+p.listbullet2nospace, li.listbullet2nospace, div.listbullet2nospace
+	{mso-style-name:listbullet2nospace;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.75in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:KO;}
+p.element10, li.element10, div.element10
+	{mso-style-name:element10;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-language:KO;}
+span.computerchar
+	{mso-style-name:computerchar;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.element145
+	{mso-style-name:element145;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:381640290;
+	mso-list-template-ids:1289248904;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:404690095;
+	mso-list-template-ids:-2134471724;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:434714600;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-506661194 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:499083406;
+	mso-list-template-ids:-542103982;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:538669028;
+	mso-list-template-ids:-2050199824;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:616837100;
+	mso-list-template-ids:916850106;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6
+	{mso-list-id:763844611;
+	mso-list-template-ids:1336725470;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7
+	{mso-list-id:954557507;
+	mso-list-template-ids:1800432576;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8
+	{mso-list-id:957443870;
+	mso-list-template-ids:1475645652;}
+@list l8:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l9
+	{mso-list-id:1269923823;
+	mso-list-template-ids:1979976194;}
+@list l9:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l9:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l9:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l9:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l9:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l9:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l9:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l9:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l9:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10
+	{mso-list-id:1302153917;
+	mso-list-template-ids:-345852214;}
+@list l10:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l10:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11
+	{mso-list-id:1377895903;
+	mso-list-template-ids:-1206848282;}
+@list l11:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l11:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12
+	{mso-list-id:1405565150;
+	mso-list-template-ids:-1766664324;}
+@list l12:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l12:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13
+	{mso-list-id:1405839160;
+	mso-list-template-ids:1118726760;}
+@list l13:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l13:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l13:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l14
+	{mso-list-id:1725984567;
+	mso-list-template-ids:-1109632222;}
+@list l14:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l14:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l14:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l14:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l14:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l14:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l14:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l14:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l14:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l15
+	{mso-list-id:1732192523;
+	mso-list-template-ids:-1413830830;}
+@list l15:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l15:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l15:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l15:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l15:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l15:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l15:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l15:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l15:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l16
+	{mso-list-id:2000111041;
+	mso-list-template-ids:-1865796378;}
+@list l16:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l16:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l16:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l16:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l16:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l16:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l16:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l16:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l16:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l17
+	{mso-list-id:2090689306;
+	mso-list-template-ids:1775823550;}
+@list l17:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l17:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l17:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l17:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l17:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l17:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l17:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l17:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin-top:5.0pt;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:5.0pt;
+	mso-para-margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><i><u><span
+style='font-size:18.0pt;font-family:"Times New Roman"'>Release Notes<o:p></o:p></span></u></i></b></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><a
+name=4465736372697074696F6E></a><b><span style='font-size:12.0pt;font-family:
+"Times New Roman"'>Microchip PIC32 USB Embedded Host Stack and Applications<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Version
+1.04<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>5
+December 2008<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>What's New/Updated in
+Release v1.04<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>At a Glance<o:p></o:p></span></b></p>
+
+<ol style='margin-top:0in' start=1 type=1>
+ <li class=MsoNormal style='margin-top:0in;margin-bottom:0in;margin-bottom:
+     .0001pt;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman";color:red;
+     mso-bidi-font-weight:bold'>Getting started guides</span><span
+     style='font-size:12.0pt;font-family:"Times New Roman";mso-bidi-font-weight:
+     bold'> added to each demo project<o:p></o:p></span></li>
+ <li class=MsoNormal style='margin-top:0in;margin-bottom:0in;margin-bottom:
+     .0001pt;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman";mso-bidi-font-weight:
+     bold'>Added <span style='color:red'>PIC32 USB Starter Board support</span>
+     to all demos<o:p></o:p></span></li>
+ <li class=MsoNormal style='margin-top:0in;margin-bottom:0in;margin-bottom:
+     .0001pt;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman";color:red'>PIC32
+     Starter Kit demos now use the debug print libraries</span><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'> to display output
+     and receive user input from the MPLAB IDE console window<span
+     style='mso-bidi-font-weight:bold'><o:p></o:p></span></span></li>
+ <li class=MsoNormal style='margin-top:0in;margin-bottom:0in;margin-bottom:
+     .0001pt;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman";mso-bidi-font-weight:
+     bold'>Added <span style='color:red'>suspend, resume, and remote wake-up</span>
+     support <o:p></o:p></span></li>
+ <li class=MsoNormal style='margin-top:0in;margin-bottom:0in;margin-bottom:
+     .0001pt;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman";mso-bidi-font-weight:
+     bold'>Added MDD File System v1.2 support for <span style='color:red'>FAT16,
+     FAT32</span><o:p></o:p></span></li>
+ <li class=MsoNormal style='margin-top:0in;margin-bottom:0in;margin-bottom:
+     .0001pt;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman";mso-bidi-font-weight:
+     bold'>General library improvements and bug fixes<o:p></o:p></span></li>
+</ol>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt'>Details<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>General<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Demos have been
+     updated to run at 80 MHz<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>General clean up
+     has been performed to make the source more readable and consistent<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>LCD timings have
+     been adjusted (in ex16lcd.c) to eliminate display errors<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>FAT file system
+     support (MDD FS) has been updated to v1.2, supporting FAT16 and FAT32<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l4 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>WM_DEVICECHANGE
+     demo has been updated to be consistent with PIC18/24 USB release v2.3<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>PIC32
+USB Starter Kit<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l8 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Versions of the USB
+     demos that support the PIC32 USB Starter Kit have been added<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l8 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Starter kit demos
+     use the debug IO capability of the PIC32 starter kit debugger to display
+     output to or receive input from the MPLAB IDE<o:p></o:p></span></li>
+ <ul style='margin-top:0in' type=disc>
+  <li class=MsoNormal style='mso-list:l8 level2 lfo3;tab-stops:list 1.0in'><span
+      class=SpellE><span style='font-size:12.0pt;font-family:"Times New Roman"'>db_utils</span></span><span
+      style='font-size:12.0pt;font-family:"Times New Roman"'> library has been
+      added to support PIC32 Starter Kit debug IO<o:p></o:p></span></li>
+ </ul>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>USB<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l9 level1 lfo4;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>USB headers have been
+     updated to eliminate warnings<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l9 level1 lfo4;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>A disable interface
+     (<span class=SpellE>USBDisable</span>) has been added<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l9 level1 lfo4;tab-stops:list .5in'><span
+     class=SpellE><span style='font-size:12.0pt;font-family:"Times New Roman"'>Mpusbapi</span></span><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'> Microchip
+     &quot;Custom&quot; Windows PC driver and API DLL have been updated to be
+     consistent with the PIC18/24 USB release v2.3<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l9 level1 lfo4;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>The USBConfig.exe
+     USB configuration tool has been updated to version 2.0.0.0<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>USB
+Device<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Sleep, Resume,
+     &amp; Remote wake up support has been added to the device library<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Attach event
+     support has been added to the device library<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Detach event
+     support has been fixed in the device layer<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Several HID Device
+     driver parameters have been made &quot;<span class=SpellE>overridable</span>&quot;
+     by the application (see <span class=SpellE>usb_device_hid.h</span>)<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>FIXED: Enumeration
+     failures with PIC32 USB hosts<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Default attach
+     de-bounce (USB_DEVICE_ATTACH_DEBOUNCE_TIME) time has been increased to 100
+     ms<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo5;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>The HID Mouse demo has
+     been modified to demonstrate suspend, resume, &amp; remote wake up
+     capabilities<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>USB
+Host<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l11 level1 lfo6;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Host support has
+     been updated to be more consistent with the PIC24 v2.3 release<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l11 level1 lfo6;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>The default number
+     of control &quot;<span class=SpellE>NAKs</span>&quot; (<a
+     href="mk:@MSITStore:C:%5CProjects%5CReleases%5Cv1.04-rc%5CMicrochip%5CHelp%5CUSB%20Embedded%20Host%20Library%20Help.chm::/USB_NUM_CONTROL_NAKS.html">USB_NUM_CONTROL_NAKS</a>)
+     has been increased<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l11 level1 lfo6;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>An interface has
+     been added to control the &quot;NAK&quot; timeout (<a
+     href="mk:@MSITStore:C:%5CProjects%5CReleases%5Cv1.04-rc%5CMicrochip%5CHelp%5CUSB%20Embedded%20Host%20Library%20Help.chm::/USBHostSetNAKTimeout@BYTE@BYTE@WORD@WORD.html"><span
+     class=SpellE>USBHostSetNAKTimeout</span></a>)<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l11 level1 lfo6;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>The Generic Host
+     demo supports both Interrupt and Bulk transfers, enabling support for
+     recent updates to the PIC18 PICDEM(TM) FS USB board<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>IMPORTANT NOTES<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Tool revisions<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+release was tested with the following tools:<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l13 level1 lfo7;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>C32 – v1.03<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l13 level1 lfo7;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>MPLAB v8.15 – <b>Some
+     of the changes in this release require MPLAB v8.10 or later.</b><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Library revisions<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+release includes the following Microchip libraries:<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l10 level1 lfo8;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Microchip Memory
+     Disk (MDD) File System v1.2<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Notes about .INF files<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Upon
+initially plugging in a USB device, in some cases Windows will prompt the user for
+a driver. Rather than having users manually copy .sys files (driver binary
+files) into important system directories (such as within the
+“\Windows\system32\” directory structure) and manually add registry entries,
+Windows automates the driver installation process through the use of .INF
+files. INF files are plain text (can be edited with notepad) installation
+instruction script files.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Some
+types of USB devices will not require .INF files or user provided drivers (for
+example, a HID class mouse). For these types of devices, the operating system
+makes use of drivers already built into/distributed with the operating system,
+so no user provided driver or .INF file is necessary.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+other types of devices, Windows will prompt the user for a driver. In these cases,
+point Windows to the .INF file relevant for the USB device. All of the example
+projects included in the MCHPFSUSB framework which need an INF file are
+provided with an example INF file. The INF file will need slight modification
+(most importantly to change the VID and PID) before commercial distribution.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>The
+INF file for the custom demo can be found in &lt;Install Directory&gt;\USB
+Tools\MCHPUSB Custom Driver\MCHPUSB Driver\Release.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>The
+INF file for the CDC demos can be found in &lt;Install Directory&gt;\USB Tools\USB
+CDC Serial Demo\inf\win2k_winxp.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Notes about Vendor ID
+(VID) and Product ID (PID)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Every
+USB product line must have a unique combination of VID and PID. All firmware
+examples use Microchip's VID (0x04d8) and a unique PID. Prior to manufacturing
+and marketing a new USB product, the VID and PID need to be changed. New VID
+and PID numbers can be obtained by purchasing a VID from the USB Implementers
+Forum:<span style='mso-spacerun:yes'>  </span><a
+href="http://www.usb.org/developers/vendor">http://www.usb.org/developers/vendor</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Alternatively,
+Microchip has a free VID sublicensing program. An application form for
+obtaining a PID (for use with Microchip’s VID: 0x04d8) from Microchip can be
+obtained by clicking <a
+href="http://www.microchip.com/stellent/groups/sitecomm_sg/documents/market_communication/en025058.pdf">here</a><span
+style='color:blue'> </span>for the direct link.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Once
+a new VID/PID combination is obtained, both the firmware and the .INF file
+(when applicable) will need to be updated.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>To
+modify the VID/PID in one of the example USB firmware projects, open the <span
+class=SpellE>usb_descriptors.c</span> file (found in each of the demo folders).
+They should appear in the table used for the USB Device Descriptor. Change both
+values as needed.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>To
+modify the VID/PID in the .INF file, open the relevant INF file and search for
+the “[<span class=SpellE>DeviceList</span>]” sections. There are two sections,
+one for 32-bit and one for 64-bit, both sections should be identical. In these
+sections, some text will appear with the form “USB\<span class=SpellE>VID_xxxx&amp;PID_yyyy</span>”.
+Update the “<span class=SpellE>xxxx</span>” and “<span class=SpellE>yyyy</span>”
+sections with the new hexadecimal format VID/PID values.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><i><u><span
+style='font-size:18.0pt;font-family:"Times New Roman"'>Getting Started<o:p></o:p></span></u></i></b></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Getting Started with the
+USB Library<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Thank
+you for installing the USB Library! We hope that this library will allow you to
+quickly and easily add USB Device or Embedded Host capability to your
+application.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>What is Installed<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>The
+installation program allows you to select the root directory of your install.
+The default root directory is C:\pic32_solutions. Under that directory, the
+following directories and files will be installed.<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l6 level1 lfo9;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>.\Microchip\Help -
+     Help files for the installed Microchip libraries.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l6 level1 lfo9;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>.\Microchip\Include\
+     - Header files used by the Microchip libraries. Files for generic support
+     functions are stored in the root directory. Library-specific headers are
+     stored under library-specific subdirectories.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l6 level1 lfo9;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>.\Microchip\Include\USB
+     - Header files used by the USB library.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l6 level1 lfo9;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>.\Microchip\USB - Source
+     files of the USB library.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l6 level1 lfo9;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>.\Microchip\USB\&lt;class&gt;&lt;<span
+     class=SpellE>Host|Device</span>&gt;Driver - Source files for the client or
+     function driver for the specific class.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l6 level1 lfo9;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>.\Microchip\USB\Documentation
+     - Getting Started documentation for the library.<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>The
+following demos and directories are <span class=SpellE>are</span> also
+installed, and are described below:<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\USB Data Logger<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\USB Generic Host
+     Demo<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\USB PC –
+     WM_DEVICECHANGE Demo<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\USB Precompiled
+     Demos<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\USB Tools\<span
+     class=SpellE>usb_cdc_serial_device_demo</span><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\<span
+     class=SpellE>usb_generic_device_demo</span><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\<span
+     class=SpellE>usb_hid_mouse_device_demo</span><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\<span
+     class=SpellE>usb_msd_device_demo</span><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\<span
+     class=SpellE>usb_sk_cdc_serial_device_demo</span><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\<span
+     class=SpellE>usb_sk_generic_device_demo</span><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\<span
+     class=SpellE>usb_sk_hid_mouse_device_demo</span><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\<span
+     class=SpellE>usb_sk_msd_device_demo</span><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo10;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>\<span
+     class=SpellE>usb_sk_msd_host_demo</span><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>MPLAB IDE Firmware
+Projects and hardware<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Several
+USB example firmware projects and hex files are included in the installation.
+Documentation explaining how to program and run each of the provided demos is
+available in each of the demo folders as well as the &lt;Install Directory&gt;\Microchip\USB\Documentation
+folder.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Microchip
+provides two full-speed USB hardware platforms for PIC32:<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l16 level1 lfo11;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>The PIC32 USB
+     Starter Kit (<a href="http://www.microchipdirect.com/">http://www.microchipDIRECT.com/</a>
+     part number DM320003) enables evaluation of USB on the PIC32MX family
+     devices.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l16 level1 lfo11;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>The PIC32MX460F512L
+     USB Plug-In Module (<a href="http://www.microchipdirect.com/">http://www.microchipDIRECT.com/</a>
+     part number MA320002) enables evaluation of USB on the PIC32MX family
+     devices. In addition to the PIM the Explorer 16 (<a
+     href="http://www.microchipdirect.com/">http://www.microchipDIRECT.com/</a>
+     part number DM240001) and USB <span class=SpellE>Pictail</span> Plus board
+     (<a href="http://www.microchipdirect.com/">http://www.microchipDIRECT.com/</a>
+     part number AC164131) are required for evaluation.<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>In
+addition to the USB specific hardware, the SD Card <span class=SpellE>Pictail</span>
+Plus board is used for all of the mass storage demos (<a
+href="http://www.microchipdirect.com/">http://www.microchipDIRECT.com/</a> part
+number AC164122).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>USB Data logger<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\USB Data Logger<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware which enables the embedded host devices to talk
+directly to a FAT16 or FAT32 formatted thumb drive (memory stick). In this demo
+the thumb drive is connected to the USB <span class=SpellE>PICtail</span> Plus
+board attached to the Explorer 16. The embedded host reads the contents of the
+drive and sends that information through the serial port a computer so it can
+be more easily read by a user. The example program allows users to navigate the
+directories of the thumb drive, create new files, and log either the
+potentiometer data or the temperature sensor data into a comma separated (CSV)
+file (not supported on the Starter Board). Once the new files are create the
+thumb drive can be removed from the Explorer 16 and attached to a computer so
+that the data written to the thumb drive and be viewed by the user.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install Directory&gt;\Microchip\USB\Documentation\Getting
+Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>USB Generic Host Demo<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\USB Generic Host Demo<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware which handles the USB chapter 9 requests needed
+for enumeration, and it also provides an implementation example of a custom or
+‘vendor’ class host using Microchip’s USB general purpose driver.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project serves as a hosting option for the “<span class=SpellE>usb_generic_device_demo</span>”
+device demo. This demo allows a user to connect a demo programmed with the
+device demo and display the temperature and potentiometer data on the Explorer
+16 LCD screen.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>USB PC - WM_DEVICECHANGE
+Demo<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\USB PC - WM_DEVICECHANGE Demo<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+is a simple application written in Visual C++.net Express™ edition. This
+application gives an example of how to register for a WM_DEVICECHANGE notification
+on Windows operating systems. The WM_DEVICECHANGE feature allows applications
+to be notified when a hardware change has occurred on the computer. This
+example can be used to determine when a targeted device is plugged into a
+computer or removed from a computer. By registering for these notifications,
+application no longer need to periodically search to see if the device has
+arrived. Instead they are actively notified and can only look for their device
+when a change has occurred.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>USB Precompiled Demos<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\USB Precompiled Demos<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Precompiled
+demos can be found in the &lt;Install Directory&gt;\USB – Precompiled Demos
+folder for each of the previously mentioned hardware platforms. To use these
+hex files with standard Microchip development tools such as MPLAB IDE and
+programmer, open MPLAB IDE, click “Configure à Select Device”, then choose
+PIC32MX460F512L. Make sure an appropriate programmer is connected and has been
+selected. Then click “File à Import” and import the .hex file to be used. Then
+use the “Programmer's Program” menu choice to restore the device.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use each of these demos, please see the getting
+started guides for each demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>usb_cdc_serial_device_demo</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\<span class=SpellE>usb_cdc_serial_device_demo</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware which handles the USB chapter 9 requests needed
+for device enumeration, and it also provides an implementation example of a
+communication device class (CDC) device. The firmware emulates a COM port. In
+this demo the CDC firmware either <span class=SpellE>echos</span> <span
+class=SpellE>keypresses</span> back to the user and prints a message to the
+screen when the pushbutton is pressed. For more information about how to use
+the demo please see the getting started guide for this demo located in the
+“&lt;Install Directory&gt;\Microchip\USB\Documentation\Getting Started”
+directory.&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Along
+with the firmware, some PC resources are also provided. Windows operating
+systems will ask for <span class=GramE>a</span> .<span class=SpellE>inf</span>
+file associated with any CDC device that is plugged in. This file can be
+located in the “&lt;Install Directory&gt;\USB Tools\USB CDC Serial Demo\<span
+class=SpellE>inf</span>” folder.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Neither
+the USB hardware on the PIC® microcontroller, nor the firmware used is platform
+specific. Several different types of operating systems, including modern Macintosh
+and Linux® operating systems have built in CDC drivers. The CDC basic demo may
+be used on these other platforms in addition to Windows.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>usb_generic_device_demo</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\<span class=SpellE>usb_generic_device_demo</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware which handles the USB chapter 9 requests needed
+for enumeration, and it also provides an implementation example of a custom or
+‘vendor’ class device using Microchip’s USB general purpose driver.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project serves as the basis for the firmware intended to be used with the
+“PICDEM FS USB Demo Tool” (launched with PDFSUSB.exe) or the &quot;USB Generic
+Host Demo&quot;. The code provided in the project provides the firmware needed
+for the various features (such as temperature, potentiometer position) used by
+PDFSUSB.exe.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>When
+using this firmware, Windows should prompt the user for a driver when the USB
+cable is first connected. Upon receiving this prompt, point Windows to the .INF
+file located in the “&lt;Install Directory&gt;\USB Tools\MCHPUSB Custom
+Driver\MCHPUSB Driver\Release” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>usb_hid_mouse_device_demo</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\<span class=SpellE>usb_hid_mouse_device_demo</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware which handles the USB chapter 9 requests needed
+for device enumeration, and it also provides an implementation example of a HID
+class device. The firmware emulates a basic USB mouse device.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>When
+using this firmware, Windows should not prompt the user for any kind of driver
+or .INF files. The HID driver is provided with the operating system, so no
+additional files are needed. Several different types of operating systems,
+including modern Macintosh and Linux® operating systems have built in HID
+drivers. Neither the USB hardware on the PIC® microcontroller, nor the firmware
+used is platform specific. The HID mouse demo may be used on these other platforms
+in addition to Windows.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>usb_msd_device_demo</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\<span class=SpellE>usb_msd_device_demo</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware which handles the USB chapter 9 requests needed
+for device enumeration, and it also provides an implementation example of a MSD
+class device. The firmware turns the hardware platform into a basic SD card
+reader. When the device is attached to the computer a new drive appears. If an
+SD card is inserted into the SD card <span class=SpellE>PICTail</span> Plus
+board, then the contents of the card are sent to the computer.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>When
+using this firmware, Windows should not prompt the user for any kind of driver
+or .INF files. The MSD driver is provided with the operating system, so no additional
+files are needed. Several different types of operating systems, including
+modern Macintosh and Linux® operating systems have built in MSD drivers.
+Neither the USB hardware on the PIC® microcontroller, nor the firmware used is
+platform specific. The SD card reader demo may be used on these other platforms
+in addition to Windows.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>usb_sk_cdc_serial_device_demo</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\<span class=SpellE>usb_sk_cdc_serial_device_demo</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware for the Starter Kit version of the <span
+class=SpellE>usb_cdc_serial_device_demo</span>, essentially unmodified.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>usb_sk_generic_device_demo</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\<span class=SpellE>usb_sk_generic_device_demo</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware for the Starter Kit version of the <span
+class=SpellE>usb_generic_device_demo</span>. It is modified to use the buttons
+to simulate changes to the temperature and potentiometer readings.&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>usb_sk_generic_host_demo</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\<span class=SpellE>usb_sk_generic_host_demo</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware for the Starter Kit version of the USB Generic
+Host Demo. It has been modified so that the information received from the
+device is displayed on the MPLAB IDE using the <span class=SpellE>db_utils</span>
+debug IO support. A button can be pressed on the Starter Board to display the
+temperature and potentiometer data.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>usb_sk_hid_mouse_device_demo</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\<span class=SpellE>usb_sk_hid_mouse_device_demo</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware for the Starter Kit version of the <span
+class=SpellE>usb_hid_mouse_device_demo</span>. It has been modified to support
+the switches and <span class=SpellE>LEDs</span> available on the Starter Board.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>usb_sk_msd_device_demo</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\<span class=SpellE>usb_sk_msd_device_demo</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware for the Starter Kit version of the <span
+class=SpellE>usb_msd_device_demo</span>. It is essentially unmodified from the <span
+class=SpellE>usb_msd_device_demo</span>. However, usage of this demo with the
+USB Starter <span class=GramE>Board,</span> requires an additional I/O
+Expansion board and <span class=SpellE>PICtail</span>(TM) board for SD(TM) and
+MMC cards.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>usb_sk_msd_host_demo</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\<span class=SpellE>usb_sk_msd_host_demo</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+project contains USB firmware for the Starter Kit version of the USB Data
+Logger demo. It has been modified to remove temperature and potentiometer data
+logging support and to use the MPLAB IDE for command input and terminal output
+via the <span class=SpellE>db_utils</span> Starter Kit debugger IO.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+more information about how to use the demo please see the getting started guide
+for this demo located in the “&lt;Install
+Directory&gt;\Microchip\USB\Documentation\Getting Started” directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>USB Tools (code for the
+PC)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>MCHPUSB Custom Driver
+(Custom/General Purpose)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\USB Tools\MCHP Custom Driver\MCHPUSB Driver\Release<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Microchip
+provides a general purpose Windows driver which can be used by Windows
+applications to interface with a custom class USB device. This driver will not
+be necessary in many USB applications, such as USB HID class devices, which
+would normally use built in HID class drivers which distribute with the OS.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>For
+USB applications that do not readily fit within the constraints of these other
+device class options, Microchip’s general purpose driver may be used. Windows
+applications can access USB devices either by directly interfacing with the
+driver (<span class=SpellE>mchpusb.sys</span>), or they may indirectly use the
+driver through a pre-compiled library.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>The
+custom/generic firmware examples are intended to be used with the general
+purpose USB driver.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>After
+installation, the release notes for the general purpose USB driver are located
+at: &lt;Install Directory&gt;\Microchip\USB Tools\MCHP Custom Driver\MCHPUSB <span
+class=SpellE>Driver\MCHPUSB</span> Driver Release Notes.htm.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Mpusbapi</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'> (Library and DLL
+Source)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\USB Tools\MCHPUSB Custom Driver\<span class=SpellE>Mpusbapi</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>A
+custom/generic Windows application using the Microchip General Purpose USB
+driver may interface directly with the driver (<span class=SpellE>mchpusb.sys</span>).
+Doing so directly requires more effort and more time to learn than using a
+pre-compiled library that exposes a simple to use API including basic functions
+like open(), read(), write(), and close().<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>The
+MPUSBAPI.DLL file is a library which provides a number of functions including
+the basic ones needed for reading and writing to a USB device. A list of the
+functions <span class=GramE>available,</span> and the calling conventions for
+those functions is currently documented in the form of inline comments in the source
+code for the DLL file. The DLL is compiled using Borland® C++ Builder™ 6
+development environment, and the source code is provided in the “&lt;install
+directory&gt;\Microchip\USB\Utilities\MCHPUSB Custom Driver\<span class=SpellE>Mpusbapi\Dll\Borland_C\Source</span>”
+directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span class=SpellE><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Pdfsusb</span></b></span><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'> (FS USB Demo Tool)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\USB Tools\<span class=SpellE>Pdfsusb</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+Windows PC program demonstrates basic USB communication using the Microchip
+Custom class driver with a Windows GUI based application. The <span
+class=SpellE>usb_generic_device_demo</span> firmware is intended to be used in
+conjunction with the “PICDEM FS USB Demo Tool” which can be launched by
+executing the PDFSUSB.exe file. The features and use of this application are
+described in the PICDEM FS USB Demonstration Board User’s Guide (DS51526).<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+application was originally intended to be used with the PICDEM FS USB Demo
+Board, but it can be used with the other available USB platforms as well. The
+demo tool makes use of hardware features, such as a temperature sensor and
+potentiometer which are not found on all of the hardware platforms.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>In
+order to use the PICDEM FS USB Demo Tool with any of the hardware platforms,
+the board will need to be programmed with the code generated by the Custom
+class device example project or from the custom class precompiled examples.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>USB CDC Serial Demo
+(Windows INF file)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\USB Tools\USB CDC Serial Demo\<span class=SpellE>inf</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>This
+file is required by the <span class=SpellE>usb_cdc_serial_device_demo</span>.
+Refer to the &quot;Getting Started&quot; guide for that demo for additional
+details.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>USBConfig.exe Tool<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>See:
+&lt;Install Directory&gt;\USB Tools\<span class=SpellE>USBConfig</span> Tool<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Each
+of the firmware projects requires <span class=GramE>a</span> <span
+class=SpellE>usb_config.h</span> that defines several macros that the USB stack
+uses to know how it should perform. In the case of the embedded host
+applications there is also a .c file that needs to be create that describes the
+Targeted Peripheral List (TPL). The TPL is a list of supported devices. This .c
+file also contains <span class=GramE>various information that the stack needs
+to know in order to load and execute the correct client drivers for these
+devices</span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>The
+USBConfig.exe tool is a simple to use interface to help generate the files
+required by the USB stack.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>At
+the moment the USBConfig.exe tool is only functional for the embedded host
+examples.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>KNOWN LIMITATIONS<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>MCHPUSB Driver Example .<span
+class=SpellE>inf</span><o:p></o:p></span></b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo12;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>When adding a
+     VID/PID string to the “%DESCRIPTION%=<span class=SpellE>DriverInstall</span>”
+     and “%DESCRIPTION%=DriverInstall64” sections in the <span class=SpellE>mchpusb.inf</span>
+     file, remove one or more of the pre-existing VID/PID strings from the
+     list. There is a limit to the maximum number of VID/PID strings that can
+     be supported simultaneously. If the list contains too many entries, the
+     following error message will occur when installing the driver under <st1:place
+     w:st="on">Vista</st1:place>: &quot;The Data Area Passed to a System Call
+     Is Too Small&quot;<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Online Reference
+Documents<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Note:
+Links provided below point to the latest version of the documents to date.
+Please check <a href="http://www.microchip.com/">http://www.microchip.com/</a>
+for the latest version.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Application
+Notes<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l14 level1 lfo13;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=1824&amp;appnote=en534221">AN1140
+     – USB Embedded Host Stack</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l14 level1 lfo13;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=1824&amp;appnote=en534245">AN1141
+     – USB Embedded Host Stack Programmer’s Guide</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l14 level1 lfo13;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=1824&amp;appnote=en534220">AN1142
+     – USB Mass Storage Class on an Embedded Host</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l14 level1 lfo13;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=1824&amp;appnote=en536561http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=1824&amp;appnote=en536561">AN1144
+     - USB Human Interface Device Class on an Embedded Host</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l14 level1 lfo13;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=1824&amp;appnote=en534219">AN1145
+     – Using a USB Flash Drive on an Embedded Host</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l14 level1 lfo13;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=1824&amp;appnote=en534248">AN1176
+     - USB Device Stack for PIC32 Programmer's Guide</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l14 level1 lfo13;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=1824&amp;appnote=en534199">AN1166
+     - USB Generic Function on an Embedded Device</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l14 level1 lfo13;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=1824&amp;appnote=en534198">AN1163
+     - USB HID Class on an Embedded Device</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l14 level1 lfo13;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=1824&amp;appnote=en534213">AN1169
+     - USB Mass Storage Class on an Embedded Device</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l14 level1 lfo13;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=1824&amp;appnote=en534204">AN1164
+     - USB CDC Class on an Embedded Device</a><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><st1:place w:st="on"><st1:PlaceName w:st="on"><span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>USB</span></st1:PlaceName><span
+ style='font-size:12.0pt;font-family:"Times New Roman"'> <st1:PlaceName w:st="on">Design</st1:PlaceName>
+ <st1:PlaceType w:st="on">Center</st1:PlaceType></span></st1:place><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l5 level1 lfo14;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/usb">http://www.microchip.com/usb</a><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>PIC32
+<st1:place w:st="on"><st1:PlaceName w:st="on">Design</st1:PlaceName> <st1:PlaceType
+ w:st="on">Center</st1:PlaceType></st1:place><o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo15;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'><a
+     href="http://www.microchip.com/pic32">http://www.microchip.com/pic32</a><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Customer Support<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>The Microchip Web Site<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Microchip
+provides online support via our web site at <a href="http://www.microchip.com/">http://www.microchip.com</a><span
+class=GramE>This</span> web site is used as a means to make files and
+information easily available to customers. Accessible by using your favorite
+Internet browser, the web site contains the following information:<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l15 level1 lfo16;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Product Support -
+     Data sheets and errata, application notes and sample programs, design
+     resources, user's guides and hardware support documents, latest software
+     releases and archived software <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l15 level1 lfo16;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>General Technical
+     Support - Frequently Asked Questions (<span class=SpellE>FAQs</span>),
+     technical support requests (http://support.microchip.com), online discussion
+     groups/forums (http://forum.microchip.com, or more specifically the USB
+     forum topic), Microchip consultant program member listing <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l15 level1 lfo16;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Business of
+     Microchip - Product selector and ordering guides, latest Microchip press
+     releases, listing of seminars and events, listings of Microchip sales
+     offices, distributors and factory representatives <o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Development Systems
+Customer Change Notification Service<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Microchip's
+customer notification service helps keep customers current on Microchip
+products. Subscribers will receive e-mail notification whenever there are
+changes, updates, revisions or errata related to a specified product family or
+development tool of interest.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>To
+register, access the Microchip web site at www.microchip.com, click on Customer
+Change Notification and follow the registration instructions.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Additional Support<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Users
+of Microchip products can receive assistance through several channels:<o:p></o:p></span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l12 level1 lfo17;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Distributor or
+     Representative <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l12 level1 lfo17;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Local Sales Office <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l12 level1 lfo17;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Field Application
+     Engineer (FAE) <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l12 level1 lfo17;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Technical Support <o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Customers
+should contact their distributor, representative or field application engineer
+(FAE) for support. Local sales offices are also available to help customers. A
+listing of sales offices and locations is available on our website.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'>Technical
+support is available through the web site at: <a
+href="http://support.microchip.com/">http://support.microchip.com</a><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Training<o:p></o:p></span></b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l17 level1 lfo18;tab-stops:list .5in'><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>Regional Training
+     Centers: <a href="http://www.microchip.com/rtc">http://www.microchip.com/rtc</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l17 level1 lfo18;tab-stops:list .5in'><span
+     class=SpellE><span style='font-size:12.0pt;font-family:"Times New Roman"'>MASTERs</span></span><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'> Conference: <a
+     href="http://www.microchip.com/masters">http://www.microchip.com/masters</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l17 level1 lfo18;tab-stops:list .5in'><span
+     class=SpellE><span style='font-size:12.0pt;font-family:"Times New Roman"'>Webseminars</span></span><span
+     style='font-size:12.0pt;font-family:"Times New Roman"'>: <a
+     href="http://techtrain.microchip.com/webseminars/QuickList.aspx">http://techtrain.microchip.com/webseminars/QuickList.aspx</a><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Trademarks:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><i><span style='font-size:12.0pt;font-family:"Times New Roman"'>The
+Microchip name and logo, the Microchip logo, MPLAB, and PIC are registered
+trademarks of Microchip Technology Incorporated in the <st1:country-region
+w:st="on"><st1:place w:st="on">U.S.A.</st1:place></st1:country-region> and
+other countries.</span></i><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><i><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>PICDEM is a trademark of Microchip Technology
+Incorporated in the <st1:place w:st="on"><st1:country-region w:st="on">U.S.A.</st1:country-region></st1:place>
+and other countries.</span></i></span><span style='font-size:12.0pt;font-family:
+"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><i><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Microsoft, Windows, and Windows Vista are either
+registered trademarks or trademarks of Microsoft Corporation in the <st1:place
+w:st="on"><st1:country-region w:st="on">United States</st1:country-region></st1:place>
+and/or other countries.</span></i></span><span style='font-size:12.0pt;
+font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><i><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Borland, and C++ Builder are trademarks or
+registered trademarks of Borland Software Corporation in the <st1:place w:st="on"><st1:country-region
+ w:st="on">United States</st1:country-region></st1:place> and other countries.</span></i></span><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span style='font-size:12.0pt;font-family:"Times New Roman"'>Linux
+is the registered trademark of <span class=SpellE>Linus</span> <span
+class=SpellE>Torvalds</span> in the <st1:country-region w:st="on"><st1:place
+ w:st="on">U.S.</st1:place></st1:country-region> and other countries.</span></i><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span style='font-size:12.0pt;font-family:"Times New Roman"'>PostScript
+is a registered trademark of Adobe®</span></i><span style='font-size:12.0pt;
+font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>

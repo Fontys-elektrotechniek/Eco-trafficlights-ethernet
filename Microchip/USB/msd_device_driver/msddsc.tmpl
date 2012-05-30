@@ -1,0 +1,369 @@
+/*************************************************************************
+ * Filename:        usb_app.c
+ * Dependancies:    TBD
+ * Processor:       TBD
+ * Hardware:        TBD
+ * Assembler:       TBD
+ * Linker:          TBD
+ * Company:         Microchip Technology, Inc.
+ *
+Software License Agreement
+
+The software supplied herewith by Microchip Technology Incorporated
+(the “Company”) for its PICmicro® Microcontroller is intended and
+supplied to you, the Company’s customer, for use solely and
+exclusively on Microchip PICmicro Microcontroller products. The
+software is owned by the Company and/or its supplier, and is
+protected under applicable copyright laws. All rights are reserved.
+Any use in violation of the foregoing restrictions may subject the
+user to criminal sanctions under applicable laws, as well as to
+civil liability for the breach of the terms and conditions of this
+license.
+
+THIS SOFTWARE IS PROVIDED IN AN “AS IS” CONDITION. NO WARRANTIES,
+WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED
+TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. THE COMPANY SHALL NOT,
+IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL OR
+CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
+ *************************************************************************
+ * File Description:
+ * This file contains all of the application-specific support required by 
+ * the USB SW stack.  It define the following that must be implemented 
+ * appropriately for the application:
+ *
+ *  - USB Descriptor Table
+ *  - UsbDevGetDescriptor function implementation
+ *  - USB Supported Device Functions table
+ *  - USB Mini-host Targeted Classes table (for dual-role devices)
+ *
+ * Change History:
+ * $Log: USBDSC.c,v $
+ * Revision 1.1  2006/10/13 16:27:24  C12923
+ * *** empty log message ***
+ *
+ * Revision 1.1  2006/10/11 22:40:38  c13331
+ * Early USB work.
+ *
+ *************************************************************************/
+/*********************************
+ * Definition of USB Descriptors *
+ *********************************/                
+
+#include "usb_func_msd\msd.h"
+
+/* USB Descriptor Table Structure
+ *************************************************************************
+ * This structure defines the complete set of descriptors necessary for 
+ * the USB device portion of this application.
+ *
+ * To Do: Modify this structure as necessary for the application's device.
+ */
+
+// TODO: modify the following structor to handle multiple classes
+typedef struct
+{
+    USB_CFG_DSC         cfg_dsc;
+    USB_INTERFACE_DSC   int_dsc;
+    USB_ENDPOINT_DSC    in_ep_dsc;
+    USB_ENDPOINT_DSC    out_ep_dsc;
+} __attribute__((packed)) USB_DEV_CONFIG0;
+
+// TODO: modify the following structor to handle strings
+#define LANG_1_ID   0x0409
+
+typedef struct
+{
+    BYTE    bLength;
+    BYTE    bDescriptorType;
+    WORD  	wLangid[1];
+} __attribute__((packed))USB_STRING_0;
+
+typedef struct
+{
+    BYTE    bLength;
+    BYTE    bDescriptorType;
+    WORD  	wLangid[25];
+} __attribute__((packed))USB_STRING_1;
+
+typedef struct
+{
+    BYTE    bLength;
+    BYTE    bDescriptorType;
+    WORD  	wLangid[28];
+} __attribute__((packed))USB_STRING_2;
+
+// TODO: modify table to include all application specific USB device desciptors
+typedef struct _USB_DESCRIPTOR_TBL
+{
+    USB_DEV_DSC         dev_desc;                   // Device Descriptor
+    USB_DEV_CONFIG0     device_cfg0;                // Configuration 0
+    USB_STRING_0        string_0;                   // string 0
+    USB_STRING_1        string_1;                   // string 1
+    USB_STRING_2        string_2;                   // string 2
+
+} __attribute__((packed)) USB_DESC_TABLE, *PUSB_DESC_TABLE;
+
+// TODO: Create the USB device descriptor table
+USB_DESC_TABLE _usbDescriptorTbl =
+{
+    // device information that is sent to the host in a "get device" request
+    {
+        sizeof(USB_DEV_DSC),
+        USB_DSC_DEVICE,
+        0x0200,
+        0x00,
+        0x00,
+        0x00,
+        USB_DEV_EP0_MAX_PACKET_SIZE,
+        USB_DEV_VID,
+        USB_DEV_PID,
+        1,
+        1,
+        2,
+        0,
+        1
+    },
+
+    // configuration that is sent to the host in responce to a "get configuration" request
+    {
+        // configuration descriptor (USB_CFG_DSC)
+        {
+            sizeof(USB_CFG_DSC),
+            USB_DSC_CONFIG,
+            sizeof(USB_DEV_CONFIG0),
+            1,
+            1,
+            0,
+	        {0, 1, 0, 1},                    // Attributes, see usbdefs_std_dsc.h
+            (50)
+        },
+
+        // interface descriptor (USB_INTERFACE_DSC)
+        // Example here is for a Mass Stoage Device (HID)
+        {
+            sizeof(USB_INTERFACE_DSC),
+            USB_DSC_INTERFACE,
+            0,
+            0,
+            2,
+            MSD_INTERFACE,
+            MSD_INTERFACE_SUBCLASS,
+            MSD_PROTOCOL,
+            0
+        },
+
+    	{
+	        sizeof(USB_ENDPOINT_DSC),
+	        USB_DSC_ENDPOINT,
+	        (EP_DIR_IN | 1),
+	        {EP_ATTR_BULK},
+	        MSD_EP_OUT_SIZE,
+	        0x00
+    	},
+
+    	{
+	        sizeof(USB_ENDPOINT_DSC),
+	        USB_DSC_ENDPOINT,
+	        (EP_DIR_OUT | 1),
+	        {EP_ATTR_BULK},
+	        MSD_EP_OUT_SIZE,
+	        0x00
+    	}
+    },
+
+    // string desciptors
+    {
+        sizeof(USB_STRING_0),
+        USB_DSC_STRING,
+        0x0409
+    },
+
+    {
+        sizeof(USB_STRING_1),
+        USB_DSC_STRING,
+        'M','i','c','r','o','c','h','i','p',' ',
+        'T','e','c','h','n','o','l','o','g','y',' ',
+        'I','n','c','.'
+    },
+     
+    {
+        sizeof(USB_STRING_2),
+        USB_DSC_STRING,
+        'M','i','c','r','o','c','h','i','p',' ',
+        'M','a','s','s',' ',
+        'S','t','o','r','a','g','e',' ',
+        'D','r','i','v','e'
+    },
+    
+};
+
+/***********************************************
+ * Implementation of UsbGetDescriptor Function *
+ ***********************************************
+ *
+ * To Do: Modify these functions as necessary to match the application's
+ * descriptor table.
+ *
+ */
+
+/* GetConfigurationDescriptor
+ *************************************************************************
+ * Returns a pointer to the requested configuration descriptor & provides
+ * the total size of the configuration descriptor set.
+ */
+
+static inline void *GetConfigurationDescriptor( BYTE config, unsigned int *length )
+{
+    if(config)
+        return NULL;
+
+    *length = (unsigned int)_usbDescriptorTbl.device_cfg0.cfg_dsc.wTotalLength;
+    return (void *)&_usbDescriptorTbl.device_cfg0;
+
+} // GetConfigurationDescriptor
+
+
+/* GetStringDescriptor
+ *************************************************************************
+ * Returns a pointer to the requested string descriptor and provides it's
+ * size.
+ */
+
+static inline const void *GetStringDescriptor( PDESC_ID desc, unsigned int *length )
+{
+    if (desc->lang_id != LANG_1_ID) {
+    }
+    switch(desc->index)
+    {
+    case 0: // String 0
+        *length = (unsigned int)_usbDescriptorTbl.string_0.bLength;
+        return (void *)&_usbDescriptorTbl.string_0;
+
+    case 1: // String 1
+        *length = (unsigned int)_usbDescriptorTbl.string_1.bLength;
+        return (void *)&_usbDescriptorTbl.string_1;
+
+    case 2: // String 2
+        *length = (unsigned int)_usbDescriptorTbl.string_2.bLength;
+        return (void *)&_usbDescriptorTbl.string_2;
+
+
+    default:
+        return NULL;
+    }
+
+} // GetStringDescriptor
+
+
+/*************************************************************************
+ * Function:        UsbDevGetDescriptor
+ *
+ * Precondition:    Assumes that the USB SW stack has been initialized.
+ *
+ * Input:           type    Type of USB Descriptor desired.
+ *
+ *                  index   Which descriptor of that type is desired.
+ *
+ * Output:          length  Length of the descriptor in bytes.
+ *
+ * Returns:         A pointer to the descriptor.
+ *
+ * Side Effects:    none
+ *
+ * Overview:        This function is a "call out" from the USB SW stack
+ *                  that must be implemented by the application.  The 
+ *                  USB device support will call it in response to 
+ *                  GET_DESCRIPTOR setup requests in order to provide the
+ *                  host with the desired descriptor data.
+ *
+ * Notes:           Must be implemented by application.
+ *************************************************************************/
+const void *USBDEVGetDescriptor ( PDESC_ID desc, unsigned int *length )
+{
+    switch (desc->type)
+   {
+    case USB_DSC_DEVICE:   // Device Descriptor
+        *length = sizeof(_usbDescriptorTbl.dev_desc);
+        return (void *)&_usbDescriptorTbl.dev_desc;
+
+    case USB_DSC_CONFIG:   // Configuration Descriptor
+        return GetConfigurationDescriptor(desc->index, length);
+
+    case USB_DSC_STRING:   // String Descriptor
+        return GetStringDescriptor(desc, length);
+
+    case USB_DSC_DEVQUAL:    // Not implemented.
+    case USB_DSC_SPEED:
+    case USB_DSC_POWER:
+    default:
+        return NULL;
+    }
+
+} // UsbDevGetDescriptor
+
+/*********************************************************************
+ * Function:       
+ *
+ * PreCondition:    
+ *
+ * Input:           
+ *
+ * Output:          
+ *
+ * Side Effects:    
+ *
+ * Overview:        
+ *
+ * Note:           
+ ********************************************************************/
+const FUNC_DRV _DevFuncTbl[] =
+{
+    {   MSDInit,    MSDEventhandler,    0   }
+};
+inline const FUNC_DRV *USBDEVGetFunctionDriverTable(void)
+{
+    return  (const FUNC_DRV *)_DevFuncTbl;
+}
+/*********************************************************************
+ * Function:       
+ *
+ * PreCondition:    
+ *
+ * Input:           
+ *
+ * Output:          
+ *
+ * Side Effects:    
+ *
+ * Overview:        
+ *
+ * Note:           
+ ********************************************************************/
+const EP_CONFIG _EpConfigTlb[] = 
+{
+    {
+        MSD_EP_OUT_SIZE,
+        USB_EP_TRANSMIT | USB_EP_HANDSHAKE | USB_EP_RECEIVE,
+        1,
+        1,
+        0,
+        0,
+        0
+    },
+
+};
+inline const EP_CONFIG *USBDEVGetEpConfigurationTable(int *num_entries)
+{
+    // Provide the number of entries
+    *num_entries = sizeof(_EpConfigTlb)/sizeof(EP_CONFIG);
+
+    // Provide the table pointer.
+    return (const EP_CONFIG *)_EpConfigTlb;
+
+
+}
+
+/*************************************************************************
+ * EOF usb_app.c
+ */

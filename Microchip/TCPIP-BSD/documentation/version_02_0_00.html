@@ -1,0 +1,1513 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="version_02_0_00_files/filelist.xml">
+<link rel=Edit-Time-Data href="version_02_0_00_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>BSD TCP/IP Version Log v2.0.00</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Microchip</o:Author>
+  <o:LastAuthor> Adrian Aur</o:LastAuthor>
+  <o:Revision>77</o:Revision>
+  <o:TotalTime>936</o:TotalTime>
+  <o:Created>2007-11-14T17:27:00Z</o:Created>
+  <o:LastSaved>2010-01-18T21:09:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1129</o:Words>
+  <o:Characters>6438</o:Characters>
+  <o:Company>Microchip Technology Inc</o:Company>
+  <o:Lines>53</o:Lines>
+  <o:Paragraphs>15</o:Paragraphs>
+  <o:CharactersWithSpaces>7552</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>BestFit</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--dl
+	{list-style-position:outside;}
+dt
+	{list-style-position:outside;}
+ol
+	{list-style-position:outside;}
+ul
+	{list-style-position:outside;}
+li
+	{list-style-position:outside;}
+dd
+	{list-style-position:outside;}
+
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.3in;
+	text-indent:-.3in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	tab-stops:list .3in;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+h2
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.4in;
+	text-indent:-.4in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	tab-stops:list .4in;
+	font-size:12.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+h3
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+pre
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	background:white;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.heading0, li.heading0, div.heading0
+	{mso-style-name:heading0;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:14.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+span.highlight
+	{mso-style-name:highlight;
+	mso-ansi-font-size:14.5pt;
+	mso-bidi-font-size:14.5pt;
+	font-family:Arial;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	color:blue;
+	background:white;
+	font-weight:bold;}
+span.heading01
+	{mso-style-name:heading01;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:Arial;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	color:black;
+	background:white;
+	font-weight:bold;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:231088803;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-447998682 67698703 67698691 -2052050432 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:491458250;
+	mso-list-type:hybrid;
+	mso-list-template-ids:770894978 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:1180895587;
+	mso-list-type:hybrid;
+	mso-list-template-ids:129769314 67698689 67698691 -2052050432 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l2:level3
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1343239593;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1427628456 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:42.0pt;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:84.0pt;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableContemporary
+	{mso-style-name:"Table Contemporary";
+	mso-tstyle-rowband-size:1;
+	mso-tstyle-colband-size:0;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:2.25pt solid white;
+	mso-border-insidev:2.25pt solid white;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableContemporaryFirstRow
+	{mso-style-name:"Table Contemporary";
+	mso-table-condition:first-row;
+	mso-tstyle-shading:white;
+	mso-tstyle-pattern:gray-20 black;
+	mso-tstyle-diagonal-down:0in none windowtext;
+	mso-tstyle-diagonal-up:0in none windowtext;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-bidi-font-weight:bold;}
+table.MsoTableContemporaryOddRow
+	{mso-style-name:"Table Contemporary";
+	mso-table-condition:odd-row;
+	mso-tstyle-shading:white;
+	mso-tstyle-pattern:gray-5 black;
+	mso-tstyle-diagonal-down:0in none windowtext;
+	mso-tstyle-diagonal-up:0in none windowtext;
+	color:windowtext;}
+table.MsoTableContemporaryEvenRow
+	{mso-style-name:"Table Contemporary";
+	mso-table-condition:even-row;
+	mso-tstyle-shading:white;
+	mso-tstyle-pattern:gray-20 black;
+	mso-tstyle-diagonal-down:0in none windowtext;
+	mso-tstyle-diagonal-up:0in none windowtext;
+	color:windowtext;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!-------------------- HEAD --------------------------------------------><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="64514"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link=blue vlink=blue style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<div>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;font-family:Arial;
+color:black'><a href="http://www.microchip.com/" title=www.Microchip.com><span
+style='color:black;text-decoration:none;text-underline:none'><img border=0
+width=152 height=42 id="_x0000_i1025" src=MicrochipLogo.gif></span></a><br>
+</span></b><span class=highlight><span style='font-size:17.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>BSD TCP/IP Version Log &#8211; v2.0.00<o:p></o:p></span></span></p>
+
+</div>
+
+<p class=MsoNormal><span style='font-size:10.0pt;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><a href="index.html">[Home] </a><span class=MsoHyperlink><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial;color:black'>In
+this version of the BSD TCP/IP stack support for the internal PIC32MX7xx
+Ethernet/MAC controller has been added.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial;color:black'><o:p>&nbsp;</o:p></span></p>
+
+<div class=MsoNormal align=center style='text-align:center'><span
+style='font-size:10.0pt;font-family:Arial;color:black'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<h2><a name=type></a><a name="_Table_of_Contents"></a><span style='mso-bookmark:
+type'><span style='color:black'>Table of Contents<o:p></o:p></span></span></h2>
+
+<span style='mso-bookmark:type'></span>
+
+<p class=MsoNormal><a name=auto-searchres-0-11></a><span style='font-size:10.0pt;
+font-family:Arial;color:black'><a href="#_Changes">Changes</a> <br>
+<a href="#_Fixes">Fixes</a> <br>
+<a href="#_Known_Problems">Known Problems</a> <br>
+<a href="#_Testing_and_Performance">Testing and Performance Notes</a> <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial;color:black'><a
+href="#_Resources">Resources</a> <o:p></o:p></span></p>
+
+<div class=MsoNormal align=center style='text-align:center'><span
+style='font-size:10.0pt;font-family:Arial;color:black'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<h3><a name=type-changes></a><a name="_Changes"></a><span style='font-family:
+Arial;color:black'>Changes<o:p></o:p></span></h3>
+
+<pre><span style='font-family:Arial;color:windowtext'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>The following new features have been <span
+class=GramE>added/modified</span> to the current release of the MCHP BSD:<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>There is only one file that the user of the stack has to include now: </span><span
+style='font-family:Arial'>&#8220;&lt;Install Directory&gt;\Microchip Solutions\Microchip\include\TCPIP-BSD\</span><span
+class=SpellE><span style='font-family:Arial;color:windowtext'>tcpip_bsd.h</span></span><span
+style='font-family:Arial;color:windowtext'>&#8221;. This one sub-includes all the necessary files the stack uses.<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The user needs to modify/update the project &#8220;source/<span
+class=SpellE>tcpip_bsd_config.h</span>&#8221; file instead of <span
+class=SpellE>eTCP.def</span>. This file contains all the parameters needed for the stack configuration.<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The source code of the stack has been moved to: </span><span
+style='font-family:Arial'>&#8220;&lt;Install Directory&gt;\Microchip Solutions\Microchip\TCPIP-BSD\</span><span
+style='font-family:Arial;color:windowtext'>&#8221; directory.<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span style='font-family:Arial;color:windowtext'>The old extra &#8220;\source&#8221; directory was removed so that is more consistent with all distributed Microchip software.<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span style='font-family:Arial;color:windowtext'>Please update your projects accordingly.<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>Integration of the PIC32MX6 and PIC32MX7 families with the integrated Ethernet/MAC controller.<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The stack works now in interrupts and presents events to the user application.<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span style='font-family:Arial;color:windowtext'>The application has to call into the stack only when Ethernet events are pending. This feature facilitates easy<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span class=GramE><span style='font-family:Arial;
+color:windowtext'>integration</span></span><span style='font-family:Arial;
+color:windowtext'> in an OS environment where different RX/TX server/client threads have to be maintained.<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span style='font-family:Arial;color:windowtext'>See the <span
+class=SpellE>tcpip_bsd_control.h</span> for complete details<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>More consistent naming applied to the stack interface functions:<o:p></o:p></span></pre><pre
+style='margin-left:84.0pt;text-indent:-.25in;mso-list:l3 level2 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The BSD sockets interface file has been renamed <span
+class=SpellE>socket.h</span> (instead of <span class=SpellE>sockapi.h</span>).<o:p></o:p></span></pre><pre
+style='margin-left:84.0pt;text-indent:-.25in;mso-list:l3 level2 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>All the proprietary stack related functions start now with the TCPIP letters (part of <span
+class=SpellE>tcpip_bsd_control.h</span>)<o:p></o:p></span></pre><pre
+style='margin-left:1.5in;text-indent:-.25in;mso-list:l3 level3 lfo2'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial;color:windowtext'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+class=SpellE><span style='font-family:Arial;color:windowtext'>int</span></span><span
+style='font-family:Arial;color:windowtext'> <span class=SpellE>TCPIPInit</span>(unsigned <span
+class=SpellE>int</span> <span class=SpellE>sys_clk</span>) -- replaced -- void <span
+class=SpellE>InitStackMgr</span>(void)<o:p></o:p></span></pre><pre
+style='margin-left:1.5in;text-indent:-.25in;mso-list:l3 level3 lfo2'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial;color:windowtext'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+class=SpellE><span style='font-family:Arial;color:windowtext'>int</span></span><span
+style='font-family:Arial;color:windowtext'> <span class=SpellE>TCPIPProcess</span>(void) -- replaced -- void <span
+class=SpellE>StackMgrProcess</span>()<o:p></o:p></span></pre><pre
+style='margin-left:1.5in;text-indent:-.25in;mso-list:l3 level3 lfo2'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial;color:windowtext'><span
+style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+class=SpellE><span class=GramE><span style='font-family:Arial;color:windowtext'>TCPIPSetDefaultAddr</span></span></span><span
+class=GramE><span style='font-family:Arial;color:windowtext'>(</span></span><span
+style='font-family:Arial;color:windowtext'>) takes now explicit parameters to set the host and gateway IP address, the network mask and the host MAC address.<o:p></o:p></span></pre><pre
+style='margin-left:1.5in;text-indent:-.25in;mso-list:l3 level3 lfo2'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial;color:windowtext'><span
+style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+class=SpellE><span class=GramE><span style='font-family:Arial;color:windowtext'>TCPIPSetIPAddr</span></span></span><span
+class=GramE><span style='font-family:Arial;color:windowtext'>(</span></span><span
+style='font-family:Arial;color:windowtext'>) takes a 32 bit IP <span
+class=SpellE>adrress</span> as parameter. <span class=SpellE><span class=GramE>TCPIPSetIPAddrByte</span></span><span
+class=GramE>(</span>) has been added to take 4 byte parameters.<o:p></o:p></span></pre><pre
+style='margin-left:1.5in;text-indent:-.25in;mso-list:l3 level3 lfo2'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial;color:windowtext'><span
+style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+class=SpellE><span style='font-family:Arial;color:windowtext'>TCPIPSetIPMask</span></span><span
+style='font-family:Arial;color:windowtext'>(),<span class=SpellE>TCPIPSetIPGateway</span>() have been renamed <span
+class=SpellE>TCPIPSetIPMaskByte</span>(),<span class=SpellE>TCPIPSetIPGatewayByte</span>() to be consistent with the new naming convention<o:p></o:p></span></pre><pre
+style='margin-left:1.5in;text-indent:-.25in;mso-list:l3 level3 lfo2'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial;color:windowtext'><span
+style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>New dynamic configuration functions have been added: <span
+class=SpellE><span class=GramE>TCPIPClose</span></span><span class=GramE>(</span>),<span
+class=SpellE>TCPIPSetRxProcessLimit</span>(),<span class=SpellE>TCPIPSetBuffMgrHeapSize</span>(),<span
+class=SpellE>TCPIPSetSocketsNo</span>(),<span class=SpellE>TCPIPSetMaxAckQueue</span>().<o:p></o:p></span></pre><pre
+style='margin-left:1.5in;text-indent:-.25in;mso-list:l3 level3 lfo2'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial;color:windowtext'><span
+style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>See the <span class=SpellE>tcpip_bsd_control.h</span> for complete details.<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The memory allocation has been improved: it is much faster and with smaller granularity.<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>TCP Keep Alive functionality has been added for stream sockets.<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The stack supports now the Zero Copy functionality (much faster than the standard socket interface).<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span style='font-family:Arial;color:windowtext'>This feature is available only on the PIC32MX6-7 families with embedded Ethernet controller.<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>Support for external RMII/MII connected <span
+class=SpellE>PHY's</span> has been added to the stack.<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span style='font-family:Arial;color:windowtext'>Currently we support the National DP83848 and SMSC LAN 8700 <span
+class=SpellE>PHY's</span>. Support for other <span class=SpellE>PHY's</span> will be added in the future.<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>PHY scan operations are supported for <span
+class=SpellE>PHY's</span> status. This increases the speed of the link down status detection.<o:p></o:p></span></pre><pre
+style='margin-left:42.0pt;text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The TCP timer needed for the TCP state machine uses a global system timer which is implemented by the CPU core timer.<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span style='font-family:Arial;color:windowtext'>The peripheral Timer1 is no longer used.<o:p></o:p></span></pre><pre> </pre><pre><span
+style='font-family:Arial;color:windowtext'>Limitations of the MCHP BSD socket interface implementation:<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The MCHP BSD TCP/IP stack is a subset of a standard, large TCP/IP stack implementation.<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span style='font-family:Arial;color:windowtext'>Some of the most notable limitations are:<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l2 level2 lfo4'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+class=SpellE><span style='font-family:Arial;color:windowtext'>setsockopt</span></span><span
+style='font-family:Arial;color:windowtext'>(): the only options supported are TCP_NO_DELAY, SO_SNDBUF and SO_RCVBUF<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l2 level2 lfo4'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>SO_RCVBUF is used for the socket window size advertisement.<o:p></o:p></span></pre><pre
+style='margin-left:91.6pt'><span style='font-family:Arial;color:windowtext'>All the traffic for all the sockets is stored in a global heap under the control of the stack manager.<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l2 level2 lfo4'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+class=SpellE><span style='font-family:Arial;color:windowtext'>getsockopt</span></span><span
+style='font-family:Arial;color:windowtext'>() is not supported<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l2 level2 lfo4'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>Other advanced options (like delayed acknowledge, congestion control, slow start, etc) are not implemented.<o:p></o:p></span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='font-family:Arial;color:windowtext'>Specifics of the MCHP BSD socket interface implementation:<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The MCHP BSD TCP/IP stack supports zero copy sockets. While the zero copy interface is not part of the BSD standard,<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span class=GramE><span style='font-family:Arial;
+color:windowtext'>it</span></span><span style='font-family:Arial;color:windowtext'> has the advantage of providing a higher performance TCP/IP communication for the application that uses this functionality.<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span style='font-family:Arial;color:windowtext'>The application has to provide acknowledge callbacks for the TX flow and call an acknowledge function for the RX flow<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span class=GramE><span style='font-family:Arial;
+color:windowtext'>when</span></span><span style='font-family:Arial;color:windowtext'> done processing the buffer.<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The hardware provided RX checksum is now used for UDP/TCP checksum calculation.<o:p></o:p></span></pre><pre
+style='margin-left:.25in'><span style='font-family:Arial;color:windowtext'> <o:p></o:p></span></pre>
+
+<h3 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><a
+name=auto-searchres-1-49></a><a name="_Fixes"></a><span style='font-family:
+Arial;color:black'>Fixes<o:p></o:p></span></h3>
+
+<pre style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo4'><a
+name=type-fixes></a><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext'><span
+style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The current release is a major re-work of the version 1.0.01.<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span style='font-family:Arial;color:windowtext'>Many features have been added or modified and the performance has been improved.<o:p></o:p></span></pre>
+
+<h3 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><a
+name="_Known_Problems"></a><span style='font-family:Arial;color:black'>Known
+Problems<o:p></o:p></span></h3>
+
+<pre style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>Common conversion routines (<span
+class=SpellE>htons</span>, <span class=SpellE>htonl</span>, and the like) still have proprietary names.<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>SO_BROADCAST option for an UDP socket that allows sending the broadcast messages is missing.<o:p></o:p></span></pre><pre
+style='margin-left:45.8pt'><span style='font-family:Arial;color:windowtext'>However to send broadcast messages the socket must set the destination address to 0xffffffff; <o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>TCP flow control is not implemented:<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l2 level2 lfo4'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>For RX traffic it does not dynamically change the size of the advertised window but it uses a fixed window size.<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l2 level2 lfo4'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>For TX traffic it does not correlate the amount of data transmitted according to the window advertised by the remote party.<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>Nagle algorithm is not correctly implemented: it does not use the packets acknowledgement but rather uses a timer to send small queued packets.<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol;color:windowtext'><span style='mso-list:Ignore'>&middot;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The external PHY interrupts are not used.</span><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:Arial;color:windowtext'><o:p></o:p></span></pre>
+
+<h3 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><a
+name="type-known_problems"></a><a name="_Testing_and_Performance"></a>Testing
+and Performance Notes<span style='font-family:Arial;color:black'><o:p></o:p></span></h3>
+
+<pre style='margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo6'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial;color:windowtext'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>This module version was compiled and tested with the following tool versions:<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l0 level2 lfo6'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>MPLAB IDE 8.43<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l0 level2 lfo6'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>Microchip C32 version 1.10<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo6'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial;color:windowtext'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>This module was tested using:<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l0 level2 lfo6'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>PIC32MX795F512L running at 80MHz<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l0 level2 lfo6'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>Internal PIC32 Ethernet/MAC controller connected to MII/RMII external PHY (National 83848, SMSC LAN8700)<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l0 level2 lfo6'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New";color:windowtext'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>Peripheral Bus speed of 80 MHz<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l0 level1 lfo6'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial;color:windowtext'><span
+style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial;color:windowtext'>The following performance numbers were obtained using our benchmark tests:<o:p></o:p></span></pre><pre><o:p>&nbsp;</o:p></pre>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=843
+ style='width:632.0pt;margin-left:-.75pt;border-collapse:collapse;mso-padding-alt:
+ 0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:38.25pt'>
+  <td width=64 valign=bottom style='width:47.8pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Tests<o:p></o:p></span></p>
+  </td>
+  <td width=65 valign=bottom style='width:49.05pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Protocol<o:p></o:p></span></p>
+  </td>
+  <td width=60 valign=bottom style='width:44.9pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Zero Copy<o:p></o:p></span></p>
+  </td>
+  <td width=72 valign=bottom style='width:53.75pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Load Size<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span class=SpellE><span style='font-size:10.0pt;
+  font-family:Arial'>Tx</span></span><span style='font-size:10.0pt;font-family:
+  Arial'> Descriptors<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Rx
+  Descriptors<o:p></o:p></span></p>
+  </td>
+  <td width=70 valign=bottom style='width:52.15pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>MAC RAM
+  buffers size<o:p></o:p></span></p>
+  </td>
+  <td width=64 valign=bottom style='width:48.1pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Buffer
+  Mgr Heap<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Protocol
+  Throughput<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Line
+  Throughput<o:p></o:p></span></p>
+  </td>
+  <td width=112 valign=bottom style='width:84.25pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Build<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:38.25pt'>
+  <td width=64 valign=bottom style='width:47.8pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>TX<o:p></o:p></span></b></p>
+  </td>
+  <td width=65 valign=bottom style='width:49.05pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>UDP<o:p></o:p></span></b></p>
+  </td>
+  <td width=60 valign=bottom style='width:44.9pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>No<o:p></o:p></span></p>
+  </td>
+  <td width=72 valign=bottom style='width:53.75pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt' x:num>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt' x:num>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=70 valign=bottom style='width:52.15pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1536/2<o:p></o:p></span></p>
+  </td>
+  <td width=64 valign=bottom style='width:48.1pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10*1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt' x:num>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>61.7 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>64 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=112 valign=bottom style='width:84.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'><span
+  style='mso-spacerun:yes'>&nbsp;</span>-O3 -<span class=SpellE>funroll</span>-loops
+  -<span class=SpellE>fomit</span>-frame-pointer<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;height:38.25pt'>
+  <td width=64 valign=bottom style='width:47.8pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>TX<o:p></o:p></span></b></p>
+  </td>
+  <td width=65 valign=bottom style='width:49.05pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>UDP<o:p></o:p></span></b></p>
+  </td>
+  <td width=60 valign=bottom style='width:44.9pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Yes<o:p></o:p></span></p>
+  </td>
+  <td width=72 valign=bottom style='width:53.75pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=70 valign=bottom style='width:52.15pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1536/2<o:p></o:p></span></p>
+  </td>
+  <td width=64 valign=bottom style='width:48.1pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10*1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>80.7 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>84 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=112 valign=bottom style='width:84.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'><span
+  style='mso-spacerun:yes'>&nbsp;</span>-O3 -<span class=SpellE>funroll</span>-loops
+  -<span class=SpellE>fomit</span>-frame-pointer<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;height:38.25pt'>
+  <td width=64 valign=bottom style='width:47.8pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>TX<o:p></o:p></span></b></p>
+  </td>
+  <td width=65 valign=bottom style='width:49.05pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>TCP<o:p></o:p></span></b></p>
+  </td>
+  <td width=60 valign=bottom style='width:44.9pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>No<o:p></o:p></span></p>
+  </td>
+  <td width=72 valign=bottom style='width:53.75pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=70 valign=bottom style='width:52.15pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1536/2<o:p></o:p></span></p>
+  </td>
+  <td width=64 valign=bottom style='width:48.1pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10*1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>41.4 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>43 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=112 valign=bottom style='width:84.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'><span
+  style='mso-spacerun:yes'>&nbsp;</span>-O3 -<span class=SpellE>funroll</span>-loops
+  -<span class=SpellE>fomit</span>-frame-pointer<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;height:38.25pt'>
+  <td width=64 valign=bottom style='width:47.8pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>TX<o:p></o:p></span></b></p>
+  </td>
+  <td width=65 valign=bottom style='width:49.05pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>TCP<o:p></o:p></span></b></p>
+  </td>
+  <td width=60 valign=bottom style='width:44.9pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Yes<o:p></o:p></span></p>
+  </td>
+  <td width=72 valign=bottom style='width:53.75pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=70 valign=bottom style='width:52.15pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1536/2<o:p></o:p></span></p>
+  </td>
+  <td width=64 valign=bottom style='width:48.1pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10*1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>55 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>57 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=112 valign=bottom style='width:84.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'><span
+  style='mso-spacerun:yes'>&nbsp;</span>-O3 -<span class=SpellE>funroll</span>-loops
+  -<span class=SpellE>fomit</span>-frame-pointer<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;height:38.25pt'>
+  <td width=64 valign=bottom style='width:47.8pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>RX<o:p></o:p></span></b></p>
+  </td>
+  <td width=65 valign=bottom style='width:49.05pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>UDP<o:p></o:p></span></b></p>
+  </td>
+  <td width=60 valign=bottom style='width:44.9pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>No<o:p></o:p></span></p>
+  </td>
+  <td width=72 valign=bottom style='width:53.75pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt' x:num>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt' x:num>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>16<o:p></o:p></span></p>
+  </td>
+  <td width=70 valign=bottom style='width:52.15pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1520/1<o:p></o:p></span></p>
+  </td>
+  <td width=64 valign=bottom style='width:48.1pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>32*1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt' x:num>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'><span
+  style='mso-spacerun:yes'>&nbsp;</span>70 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>73 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=112 valign=bottom style='width:84.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'><span
+  style='mso-spacerun:yes'>&nbsp;</span>-O3 -<span class=SpellE>funroll</span>-loops
+  -<span class=SpellE>fomit</span>-frame-pointer<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6;height:38.25pt'>
+  <td width=64 valign=bottom style='width:47.8pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>RX<o:p></o:p></span></b></p>
+  </td>
+  <td width=65 valign=bottom style='width:49.05pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>UDP<o:p></o:p></span></b></p>
+  </td>
+  <td width=60 valign=bottom style='width:44.9pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Yes<o:p></o:p></span></p>
+  </td>
+  <td width=72 valign=bottom style='width:53.75pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>16<o:p></o:p></span></p>
+  </td>
+  <td width=70 valign=bottom style='width:52.15pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1520/1<o:p></o:p></span></p>
+  </td>
+  <td width=64 valign=bottom style='width:48.1pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>32*1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'><span
+  style='mso-spacerun:yes'>&nbsp;</span>85 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>88 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=112 valign=bottom style='width:84.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'><span
+  style='mso-spacerun:yes'>&nbsp;</span>-O3 -<span class=SpellE>funroll</span>-loops
+  -<span class=SpellE>fomit</span>-frame-pointer<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;height:38.25pt'>
+  <td width=64 valign=bottom style='width:47.8pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>RX<o:p></o:p></span></b></p>
+  </td>
+  <td width=65 valign=bottom style='width:49.05pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>TCP<o:p></o:p></span></b></p>
+  </td>
+  <td width=60 valign=bottom style='width:44.9pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>No<o:p></o:p></span></p>
+  </td>
+  <td width=72 valign=bottom style='width:53.75pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>16<o:p></o:p></span></p>
+  </td>
+  <td width=70 valign=bottom style='width:52.15pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1520/1<o:p></o:p></span></p>
+  </td>
+  <td width=64 valign=bottom style='width:48.1pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>32*1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>50.9 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>53 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=112 valign=bottom style='width:84.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'><span
+  style='mso-spacerun:yes'>&nbsp;</span>-O3 -<span class=SpellE>funroll</span>-loops
+  -<span class=SpellE>fomit</span>-frame-pointer<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8;mso-yfti-lastrow:yes;height:38.25pt'>
+  <td width=64 valign=bottom style='width:47.8pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>RX<o:p></o:p></span></b></p>
+  </td>
+  <td width=65 valign=bottom style='width:49.05pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>TCP<o:p></o:p></span></b></p>
+  </td>
+  <td width=60 valign=bottom style='width:44.9pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>Yes<o:p></o:p></span></p>
+  </td>
+  <td width=72 valign=bottom style='width:53.75pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>10<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>20<o:p></o:p></span></p>
+  </td>
+  <td width=70 valign=bottom style='width:52.15pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>1520<o:p></o:p></span></p>
+  </td>
+  <td width=64 valign=bottom style='width:48.1pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'>32*1024<o:p></o:p></span></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>65 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=84 valign=bottom style='width:63.0pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:10.0pt;font-family:Arial'>67 Mbps<o:p></o:p></span></b></p>
+  </td>
+  <td width=112 valign=bottom style='width:84.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:38.25pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'><span
+  style='mso-spacerun:yes'>&nbsp;</span>-O3 -<span class=SpellE>funroll</span>-loops
+  -<span class=SpellE>fomit</span>-frame-pointer<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre>
+
+<h3 style='tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><a
+name="_Resources"></a>Resources<span style='font-family:Arial;color:black'><o:p></o:p></span></h3>
+
+<pre><span style='font-family:Arial'>A HTTP with DHCP client demo application was used with the build parameters:<o:p></o:p></span></pre><pre><span
+style='font-family:Arial'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>-g -Os -<span
+class=SpellE>fomit</span>-frame-pointer<o:p></o:p></span></pre><pre><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></pre><pre><span
+style='font-family:Arial'>The following results were obtained for the BSD stack (just the TCP/IP layer, no other higher level protocols):<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo8'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial'>Flash &lt; 17 KB<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo8'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial'>Static RAM &lt; 0.5 KB<o:p></o:p></span></pre><pre
+style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo8'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial'>Dynamic RAM is user configurable. A common setting across demo projects is:<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l1 level2 lfo8'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New"'><span style='mso-list:Ignore'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial'>MAC RX buffers: 7.5 KB (<span class=SpellE>tcpip_bsd_config.h</span>:: EMAC_RX_DESCRIPTORS=10, EMAC_RX_BUFF_SIZE = 1536/2)<o:p></o:p></span></pre><pre
+style='margin-left:1.0in;text-indent:-.25in;mso-list:l1 level2 lfo8'><![if !supportLists]><span
+style='mso-fareast-font-family:"Courier New"'><span style='mso-list:Ignore'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial'>Stack Manager local heap: 10 KB (<span class=SpellE>tcpip_bsd_config.h</span>:: BUFF_MGR_HEAP_SIZE = (1024*10)<o:p></o:p></span></pre><pre><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre></div>
+
+</body>
+
+</html>

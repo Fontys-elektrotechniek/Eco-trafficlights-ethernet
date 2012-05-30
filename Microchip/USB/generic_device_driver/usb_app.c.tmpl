@@ -1,0 +1,457 @@
+
+/******************************************************************************
+
+    USB Generic Function Application-Specific Support Template
+    
+This file contains all of the application-specific support required by the USB
+Device FW stack.  It define the following that must be implemented 
+appropriately for the application:
+
+ - USB Descriptor Table
+ - USB_DEV_GET_DESCRIPTOR_FUNC Function Implementation
+ - Endpoint Configuration Table
+ - USB_DEV_GET_EP_CONFIG_TABLE_FUNC Function Implementation
+ - USB Device Functions Table
+ - USB_DEV_GET_FUNCTION_DRIVER_TABLE_FUNC Implementation
+ - USB Host Targeted Classes Table
+ - USB_HOST_GET_TARGETED_CLASSES_TABLE_FUNC Implementation (for dual-
+   role devices)
+   
+ * Filename:        usb_app.c
+ * Dependancies:    TBD
+ * Processor:       TBD
+ * Hardware:        TBD
+ * Assembler:       TBD
+ * Linker:          TBD
+ * Company:         Microchip Technology, Inc.
+
+Software License Agreement
+
+The software supplied herewith by Microchip Technology Incorporated
+(the “Company”) for its PICmicro® Microcontroller is intended and
+supplied to you, the Company’s customer, for use solely and
+exclusively on Microchip PICmicro Microcontroller products. The
+software is owned by the Company and/or its supplier, and is
+protected under applicable copyright laws. All rights are reserved.
+Any use in violation of the foregoing restrictions may subject the
+user to criminal sanctions under applicable laws, as well as to
+civil liability for the breach of the terms and conditions of this
+license.
+
+THIS SOFTWARE IS PROVIDED IN AN “AS IS” CONDITION. NO WARRANTIES,
+WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED
+TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. THE COMPANY SHALL NOT,
+IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL OR
+CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
+
+Author          Date    Comments
+--------------------------------------------------------------------------------
+BC           11-10-2006 Initial Creation
+
+*******************************************************************************/
+ 
+#include "GenericTypeDefs.h"
+#include "USB/usb.h"
+#include "USB/usb_device_generic.h"
+
+
+/************************
+ * USB Descriptor Table *
+ ************************/                
+
+#define NUM_LANGS   1
+#define STR_1_LEN   10
+#define STR_2_LEN   10
+#define STR_3_LEN   10
+
+/* USB Descriptor Table Structure
+ *************************************************************************
+ * This structure defines the complete set of descriptors necessary for 
+ * the USB device portion of this application.
+ *
+ * To Do: Modify this structure as necessary for the application's device.
+ */
+
+#pragma pack(push,1)  // Must not have any padding.
+
+typedef struct _usb_descriptor_table
+{
+    USB_DEV_DSC         dev_desc;                   // Device Descriptor
+
+    USB_CFG_DSC         config_1_desc;              // Configuration 1
+
+    USB_INTERFACE_DSC   conf1_intf0_desc;           // Config 0, Interface 0
+    USB_ENDPOINT_DSC    conf1_intf0_ep1_desc;
+    USB_ENDPOINT_DSC    conf1_intf0_ep2_desc;
+
+    USB_INTERFACE_DSC   conf1_intf1_desc;           // Config 0, Interface 1
+    USB_ENDPOINT_DSC    conf1_intf1_ep3_desc;
+    USB_ENDPOINT_DSC    conf1_intf1_ep4_desc;
+
+
+    USB_CFG_DSC         config_2_desc;              // Configuration 2
+
+    USB_INTERFACE_DSC   conf2_intf0_desc;           // Config 1, Interface 0
+    USB_ENDPOINT_DSC    conf2_intf0_ep1_desc;
+    USB_ENDPOINT_DSC    conf2_intf0_ep2_desc;
+
+
+    USB_STRING_DSC      string_0;                   // String Descriptors
+    WORD                langid[NUM_LANGS];
+    USB_STRING_DSC      string_1;
+    WORD                string_1_data[STR_1_LEN];
+    USB_STRING_DSC      string_2;
+    WORD                string_2_data[STR_2_LEN];
+    USB_STRING_DSC      string_3;
+    WORD                string_3_data[STR_3_LEN];
+
+    BYTE                end[0];                     // Used to calculate length
+                                                    // of the last string desc.
+} USB_DESC_TABLE, *PUSB_DESC_TABLE;
+
+#pragma pack(pop)
+
+const USB_DESC_TABLE gDescTable =
+{
+    // To Do: Initialize descriptor table as appropriate for the device.
+};
+
+
+/*******************************************************
+ * USB_DEV_GET_DESCRIPTOR_FUNC Function Implementation *
+ *******************************************************
+ *
+ * To Do: Modify these functions as necessary to match the application's
+ * descriptor table.
+ *
+ */
+
+/* GetConfigurationDescriptor
+ *************************************************************************
+ * Returns a pointer to the requested configuration descriptor & provides
+ * the total size of the configuration descriptor set.
+ */
+
+static inline const void *GetConfigurationDescriptor( BYTE config, unsigned int *length )
+{
+    switch (config)
+    {
+    case 0: // Configuration 1 (default)
+        *length = (unsigned int)&gDescTable.config_2_desc -
+                  (unsigned int)&gDescTable.config_1_desc;
+        return &gDescTable.config_1_desc;
+
+    case 1: // Configuration 2
+        *length = (unsigned int)&gDescTable.string_0 - 
+                  (unsigned int)&gDescTable.config_2_desc;
+        return &gDescTable.config_2_desc;
+
+   /*
+    *
+    case n:
+        *length = <calculate the total length of configuration  n's descriptors>;
+        return &<configuration n descriptor>;
+    *
+    */
+   
+    default:
+        return NULL;
+    }
+
+} // GetConfigurationDescriptor
+
+
+/* GetStringDescriptor
+ *************************************************************************
+ * Returns a pointer to the requested string descriptor and provides it's
+ * size.
+ */
+
+static inline const void *GetStringDescriptor( BYTE string, unsigned int *length )
+{
+    switch(string)
+    {
+    case 0: // String 0
+        *length = (unsigned int)&gDescTable.string_1 - 
+                  (unsigned int)&gDescTable.string_0;
+        return &gDescTable.string_0;
+
+    case 1: // String 1
+        *length = (unsigned int)&gDescTable.string_2 - 
+                  (unsigned int)&gDescTable.string_1;
+        return &gDescTable.string_1;
+
+    case 2: // String 2
+        *length = (unsigned int)&gDescTable.string_3 - 
+                  (unsigned int)&gDescTable.string_2;
+        return &gDescTable.string_2;
+
+    case 3: // String 3
+        *length = (unsigned int)&gDescTable.end - 
+                  (unsigned int)&gDescTable.string_3;
+        return &gDescTable.string_3;
+
+    default:
+        return NULL;
+    }
+
+} // GetStringDescriptor
+
+
+/*************************************************************************
+ * Function:        USBDEVGetDescriptor
+ *
+ * Precondition:    Assumes that the USB SW stack has been initialized.
+ *
+ * Input:           type    Type of USB Descriptor desired.
+ *
+ *                  index   Which descriptor of that type is desired.
+ *
+ * Output:          length  Length of the descriptor in bytes.
+ *
+ * Returns:         A pointer to the descriptor.
+ *
+ * Side Effects:    none
+ *
+ * Overview:        This function is a "call out" from the USB SW stack
+ *                  that must be implemented by the application.  The 
+ *                  USB device support will call it in response to 
+ *                  GET_DESCRIPTOR setup requests in order to provide the
+ *                  host with the desired descriptor data.
+ *
+ * Notes:           Must be implemented by application.  
+ *
+ *                  Define the USB_DEV_GET_DESCRIPTOR_FUNC macro in the
+ *                  USB configuration file to the name of this routine.
+ *************************************************************************/
+
+const void *USBDEVGetDescriptor ( BYTE type, BYTE index, unsigned int *length )
+{
+    switch (type)
+    {
+    case USB_DSC_DEVICE:    // Device Descriptor
+        *length = sizeof(gDescTable.dev_desc);
+        return &gDescTable.dev_desc;
+
+    case USB_DSC_CONFIG:    // Configuration Descriptor
+        return GetConfigurationDescriptor(index, length);
+
+    case USB_DSC_STRING:    // String Descriptor
+        return GetStringDescriptor(index, length);
+
+    // Fail all un-supported descriptor requests:
+
+    case USB_DSC_INTERFACE: // Endpoint and Interface descriptors cannot be
+    case USB_DSC_ENDPOINT:  // Accessed directly from a GET_DESCRIPTOR 
+                            // request.
+
+    case USB_DSC_DEVQUAL:   // Not implemented.
+    case USB_DSC_SPEED:
+    case USB_DSC_POWER:
+    default:
+        return NULL;
+    }
+
+} // USBDEVGetDescriptor
+
+
+/********************************
+ * Endpoint Configuration Table *
+ ********************************
+ *
+ * This table defines all supported endpoint configurations for this 
+ * application.  The configurations must match with the information 
+ * provided to the host in the descriptors (defined above).
+ *
+ * Note: This table should not include an entry for endpoint 0.
+ */
+
+const EP_CONFIG gEpConfigTable[] =
+{
+    //
+    // Device Configuration 1 Endpoint Configurations.
+    //
+
+    // Index: 
+    {
+        64,                     // Maximum packet size for this endpoint
+        USB_EP_TRANSMIT|        // Configuration flags for this endpoint (see below)
+        USB_EP_HANDSHAKE,   
+        1,                      // Endpoint number.
+        1,                      // Configuration number
+        0,                      // Interface number
+        0,                      // Alternate interface setting (default=0)
+        0                       // Index in device function table (see below)
+    },
+    {
+        64,                     // Maximum packet size for this endpoint
+        USB_EP_RECEIVE|         // Configuration flags for this endpoint (see below)
+        USB_EP_HANDSHAKE,   
+        2,                      // Endpoint number.
+        1,                      // Configuration number (start at 1)
+        0,                      // Interface number
+        0,                      // Alternate interface setting (default=0)
+        0                       // Index in device function table (see below)
+    },
+    {
+        64,                     // Maximum packet size for this endpoint
+        USB_EP_TRANSMIT|        // Configuration flags for this endpoint (see below)
+        USB_EP_HANDSHAKE,   
+        3,                      // Endpoint number.
+        1,                      // Configuration number (start at 1)
+        1,                      // Interface number
+        0,                      // Alternate interface setting (default=0)
+        0                       // Index in device function table (see below)
+    },
+    {
+        64,                     // Maximum packet size for this endpoint
+        USB_EP_RECEIVE|         // Configuration flags for this endpoint (see below)
+        USB_EP_HANDSHAKE,   
+        4,                      // Endpoint number.
+        1,                      // Configuration number (start at 1)
+        1,                      // Interface number
+        0,                      // Alternate interface setting (default=0)
+        0                       // Index in device function table (see below)
+    },
+    // Device Configuration 2 Endpoint Configurations.
+    {
+        64,                     // Maximum packet size for this endpoint
+        USB_EP_TRANSMIT|        // Configuration flags for this endpoint (see below)
+        USB_EP_HANDSHAKE,   
+        1,                      // Endpoint number.
+        2,                      // Configuration number (start at 1)
+        0,                      // Interface number
+        0,                      // Alternate interface setting (default=0)
+        0                       // Index in device function table (see below)
+    },
+    {
+        64,                     // Maximum packet size for this endpoint
+        USB_EP_RECEIVE|         // Configuration flags for this endpoint (see below)
+        USB_EP_HANDSHAKE,   
+        2,                      // Endpoint number.
+        2,                      // Configuration number (start at 1)
+        0,                      // Interface number
+        0,                      // Alternate interface setting (default=0)
+        0                       // Index in device function table (see below)
+    }
+};
+
+/************************************************************
+ * USB_DEV_GET_EP_CONFIG_TABLE_FUNC Function Implementation *
+ ************************************************************/
+
+/*************************************************************************
+ * Function:        USBDEVGetEpConfigurationTable
+ *
+ * Precondition:    none
+ *
+ * Input:           none
+ *
+ * Output:          num_entries     Number of entries in the endpoint 
+ *                                  configuration table.
+ *
+ * Returns:         A pointer to the endpoint configuration table.
+ *
+ * Side Effects:    none
+ *
+ * Overview:        This function is a "call out" from the USB SW stack
+ *                  that must be implemented by the application.  The 
+ *                  USB device support will call it when it needs the
+ *                  endpoint configuration table.
+ *
+ * Notes:           Must be implemented by application.
+ *
+ *                  Define the USB_DEV_GET_EP_CONFIG_TABLE_FUNC macro in 
+ *                  the USB configuration file to the name of this routine.
+ *************************************************************************/
+
+inline const EP_CONFIG *USBDEVGetEpConfigurationTable ( int *num_entries )
+{
+    // Provide the number of entries
+    *num_entries = sizeof(gEpConfigTable)/sizeof(EP_CONFIG);
+
+    // Provide the table pointer.
+    return gEpConfigTable;
+
+} // USBDEVGetEpConfigurationTable
+
+
+/******************************
+ * USB Device Functions Table *
+ ******************************
+ *
+ * This table provides information about the USB device functions that are
+ * supported by this application.
+ *
+ * Note: This table cannot have more then 32 entries in it.
+ */
+
+const FUNC_DRV gDevFuncTable[] = 
+{
+    // To Do: Initialize the device function driver table as appropriate.
+
+    {                                       // function 1
+        NULL,       // Init routine
+        NULL,       // Event routine
+        0           // Init flags
+    },
+    {                                       // function 2
+        NULL,       // Init routine
+        NULL,       // Event routine
+        0           // Init flags
+    }
+};
+
+
+/*********************************************************
+ * USB_DEV_GET_FUNCTION_DRIVER_TABLE_FUNC Implementation *
+ *********************************************************/
+
+/*************************************************************************
+ * Function:        USBDEVGetFunctionDriverTable
+ *
+ * Precondition:    none
+ *
+ * Input:           none
+ *
+ * Output:          none
+ *
+ * Returns:         A pointer to the function driver table.
+ *
+ * Side Effects:    none
+ *
+ * Overview:        This function is a "call out" from the USB SW stack
+ *                  that must be implemented by the application.  The 
+ *                  USB device support will call it when it needs get 
+ *                  the function driver table.
+ *
+ * Notes:           Must be implemented by application.
+ *
+ *                  Define the USB_DEV_GET_FUNCTION_DRIVER_TABLE_FUNC 
+ *                  macro in the USB configuration file to the name of 
+ *                  this routine.
+ *************************************************************************/
+
+inline const FUNC_DRV *USBDEVGetFunctionDriverTable ( void )
+{
+    // Index into array and provide interface pointer.
+    return gDevFuncTable;
+
+} // USBDEVGetFunctionDriverTable
+
+
+/*****************************************
+ * USB_HOST_CLASSES_TABLE Implementation *
+ *****************************************
+ *
+ * This table provide information about targetted set of USB device 
+ * classes that this mini-host application supports.
+ */
+
+// To Do if necessary
+
+
+/*************************************************************************
+ * EOF usb_app.c
+ */

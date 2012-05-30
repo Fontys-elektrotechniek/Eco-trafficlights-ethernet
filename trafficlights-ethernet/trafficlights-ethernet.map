@@ -1,0 +1,1928 @@
+Archive member included because of file (symbol)
+
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/size\libgcc.a(_udivdi3.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o (__udivdi3)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memcmp.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o (memcmp)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memcpy.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o (memcpy)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memset.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o (memset)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strcmp.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o (strcmp)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strcpy.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o (strcpy)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strlen.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o (strlen)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(general-exception.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (_general_exception_context)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (exit)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o (atol)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atoi.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o (atoi)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o) (strtol)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o) (_libc_data)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o) (_filbuf_simple)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o) (pthread_mutex_lock)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (_bootstrap_exception_handler)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (_on_reset)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (_on_bootstrap)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-nmi-handler.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o (_nmi_handler)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o) (_mon_getc)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o) (_mon_write)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o) (_exit)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(ctype.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o) (_ctype)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(errno.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o) (errno)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o) (_mon_putc)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(soft_reset_lib.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o (SoftReset)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o (CheKseg0CacheOn)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o (INTDisableInterrupts)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o (INTRestoreInterrupts)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o (INTEnableSystemMultiVectoredInt)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+                              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o (putsUART2)
+C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+                              C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o) (INTEnableInterrupts)
+
+Allocating common symbols
+Common symbol       size              file
+
+UDPTxCount          0x2               Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+curHTTP             0x8c              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+UARTText            0x21              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+activeUDPSocket     0x1               Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+curHTTPID           0x1               Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+remoteNode          0xa               Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+AppConfig           0x33              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+UDPRxCount          0x2               Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+UDPSocketInfo       0x8c              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+httpStubs           0x10              Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+AN0String           0x8               Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+
+Microchip PIC32 Memory-Usage Report
+
+kseg0 Program-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.text                   0x9d000000        0x18d08      101640  Application's executable code 
+.rodata                 0x9d018d08         0x89e4       35300  Read-only constant data 
+.eh_frame               0x9d0216ec           0x20          32  Stack unwind info 
+.data                   0x9d02170c           0xf4         244  Data-initialization template 
+.sdata                  0x9d021800           0x18          24  Small data-initialization template 
+      Total kseg0_program_mem used  :     0x21818      137240  26.2% of 0x80000
+
+kseg0 Boot-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.startup                0x9fc00490          0x1e0         480  C startup code 
+         Total kseg0_boot_mem used  :       0x1e0         480  19.9% of 0x970
+
+Exception-Memory Usage 
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.app_excpt              0x9fc01180           0x10          16  General-Exception handler 
+.vector_4               0x9fc01280            0x8           8  Interrupt Vector 4 
+          Total exception_mem used  :        0x18          24  0.6% of 0x1000
+
+kseg1 Boot-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.reset                  0xbfc00000           0x10          16  Reset handler 
+.bev_excpt              0xbfc00380           0x10          16  BEV-Exception handler 
+         Total kseg1_boot_mem used  :        0x20          32  2.7% of 0x490
+        --------------------------------------------------------------------------
+         Total Program Memory used  :     0x21a30      137776  25.9% of 0x81e00
+        --------------------------------------------------------------------------
+
+
+kseg1 Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.data                   0xa0000000           0xf4         244  Initialized data 
+.sdata                  0xa00000f4           0x18          24  Small initialized data 
+.sbss                   0xa000010c           0xb8         184  Small uninitialized data 
+.bss                    0xa00001c4          0x420        1056  Uninitialized data 
+.stack                  0xa00005e4          0x400        1024  Minimum space reserved for stack 
+         Total kseg1_data_mem used  :       0x9e4        2532  7.7% of 0x8000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :       0x9e4        2532  7.7% of 0x8000
+        --------------------------------------------------------------------------
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+kseg0_program_mem 0x9d000000         0x00080000         xr
+kseg0_boot_mem   0x9fc00490         0x00000970
+exception_mem    0x9fc01000         0x00001000
+kseg1_boot_mem   0xbfc00000         0x00000490
+debug_exec_mem   0xbfc02000         0x00000ff0
+config3          0xbfc02ff0         0x00000004
+config2          0xbfc02ff4         0x00000004
+config1          0xbfc02ff8         0x00000004
+config0          0xbfc02ffc         0x00000004
+kseg1_data_mem   0xa0000000         0x00008000         w !x
+sfrs             0xbf800000         0x00100000
+configsfrs       0xbfc02ff0         0x00000010
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARCFOUR.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\AutoIP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyAPI.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BigInt.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Delay.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCPs.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNSs.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DynDNS.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENCX24J600.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FileSystem.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FTP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Hashes.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LCDBlocking.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Random.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\RSA.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3USM.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIEEPROM.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIFlash.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIRAM.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SSL.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCPPerformanceTest.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Telnet.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TFTPc.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART2TCPBridge.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDPPerformanceTest.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfHelper.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfLinkLocal.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfMulticastDNS.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSNMPApp.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSSLCert.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPClientDemo.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPServerDemo.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyUDPClientDemo.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPClient.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPServer.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LegacyHTTPApp.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTPDemo.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg2.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg.o
+LOAD Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BigInt_helper_C32.o
+                0x00000001                __MPLAB_BUILD = 0x1
+                0x00000001                __MPLAB_DEBUG = 0x1
+                0x00000001                __MPLAB_DEBUGGER_PIC32MXSK = 0x1
+LOAD C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/size\libgcc.a
+START GROUP
+LOAD C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libdebug.a
+LOAD C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a
+LOAD C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libm.a
+LOAD C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libe.a
+LOAD C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libdsp.a
+LOAD C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral.a
+LOAD C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a
+END GROUP
+LOAD C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/size\libgcc.a
+                0x00000400                PROVIDE (_min_stack_size, 0x400)
+                0x00000000                PROVIDE (_min_heap_size, 0x0)
+LOAD C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/./proc/32MX460F512L\processor.o
+                0x00000001                PROVIDE (_vector_spacing, 0x1)
+                0x9fc01000                _ebase_address = 0x9fc01000
+                0xbfc00000                _RESET_ADDR = 0xbfc00000
+                0xbfc00380                _BEV_EXCPT_ADDR = 0xbfc00380
+                0xbfc00480                _DBG_EXCPT_ADDR = 0xbfc00480
+                0xbfc02000                _DBG_CODE_ADDR = 0xbfc02000
+                0x9fc01180                _GEN_EXCPT_ADDR = (_ebase_address + 0x180)
+
+.config_BFC02FF0
+ *(.config_BFC02FF0)
+
+.config_BFC02FF4
+                0xbfc02ff4        0x4
+ *(.config_BFC02FF4)
+ .config_BFC02FF4
+                0xbfc02ff4        0x4 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+
+.config_BFC02FF8
+                0xbfc02ff8        0x4
+ *(.config_BFC02FF8)
+ .config_BFC02FF8
+                0xbfc02ff8        0x4 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+
+.config_BFC02FFC
+                0xbfc02ffc        0x4
+ *(.config_BFC02FFC)
+ .config_BFC02FFC
+                0xbfc02ffc        0x4 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+
+.reset          0xbfc00000       0x10
+ *(.reset)
+ .reset         0xbfc00000       0x10 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+                0xbfc00000                _reset
+
+.bev_excpt      0xbfc00380       0x10
+ *(.bev_handler)
+ .bev_handler   0xbfc00380       0x10 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+
+.dbg_excpt      0xbfc00480        0x0
+                0xbfc00480                . = (. + DEFINED (_DEBUGGER)?0x8:0x0)
+
+.dbg_code       0xbfc02000        0x0
+                0xbfc02000                . = (. + DEFINED (_DEBUGGER)?0xff0:0x0)
+
+.app_excpt      0x9fc01180       0x10
+ *(.gen_handler)
+ .gen_handler   0x9fc01180       0x10 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+
+.vector_0       0x9fc01200        0x0
+ *(.vector_0)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_0) <= (_vector_spacing << 0x5))), function at exception vector 0 too large)
+
+.vector_1       0x9fc01220        0x0
+ *(.vector_1)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_1) <= (_vector_spacing << 0x5))), function at exception vector 1 too large)
+
+.vector_2       0x9fc01240        0x0
+ *(.vector_2)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_2) <= (_vector_spacing << 0x5))), function at exception vector 2 too large)
+
+.vector_3       0x9fc01260        0x0
+ *(.vector_3)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_3) <= (_vector_spacing << 0x5))), function at exception vector 3 too large)
+
+.vector_4       0x9fc01280        0x8
+ *(.vector_4)
+ .vector_4      0x9fc01280        0x8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_4) <= (_vector_spacing << 0x5))), function at exception vector 4 too large)
+
+.vector_5       0x9fc012a0        0x0
+ *(.vector_5)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_5) <= (_vector_spacing << 0x5))), function at exception vector 5 too large)
+
+.vector_6       0x9fc012c0        0x0
+ *(.vector_6)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_6) <= (_vector_spacing << 0x5))), function at exception vector 6 too large)
+
+.vector_7       0x9fc012e0        0x0
+ *(.vector_7)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_7) <= (_vector_spacing << 0x5))), function at exception vector 7 too large)
+
+.vector_8       0x9fc01300        0x0
+ *(.vector_8)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_8) <= (_vector_spacing << 0x5))), function at exception vector 8 too large)
+
+.vector_9       0x9fc01320        0x0
+ *(.vector_9)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_9) <= (_vector_spacing << 0x5))), function at exception vector 9 too large)
+
+.vector_10      0x9fc01340        0x0
+ *(.vector_10)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_10) <= (_vector_spacing << 0x5))), function at exception vector 10 too large)
+
+.vector_11      0x9fc01360        0x0
+ *(.vector_11)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_11) <= (_vector_spacing << 0x5))), function at exception vector 11 too large)
+
+.vector_12      0x9fc01380        0x0
+ *(.vector_12)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_12) <= (_vector_spacing << 0x5))), function at exception vector 12 too large)
+
+.vector_13      0x9fc013a0        0x0
+ *(.vector_13)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_13) <= (_vector_spacing << 0x5))), function at exception vector 13 too large)
+
+.vector_14      0x9fc013c0        0x0
+ *(.vector_14)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_14) <= (_vector_spacing << 0x5))), function at exception vector 14 too large)
+
+.vector_15      0x9fc013e0        0x0
+ *(.vector_15)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_15) <= (_vector_spacing << 0x5))), function at exception vector 15 too large)
+
+.vector_16      0x9fc01400        0x0
+ *(.vector_16)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_16) <= (_vector_spacing << 0x5))), function at exception vector 16 too large)
+
+.vector_17      0x9fc01420        0x0
+ *(.vector_17)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_17) <= (_vector_spacing << 0x5))), function at exception vector 17 too large)
+
+.vector_18      0x9fc01440        0x0
+ *(.vector_18)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_18) <= (_vector_spacing << 0x5))), function at exception vector 18 too large)
+
+.vector_19      0x9fc01460        0x0
+ *(.vector_19)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_19) <= (_vector_spacing << 0x5))), function at exception vector 19 too large)
+
+.vector_20      0x9fc01480        0x0
+ *(.vector_20)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_20) <= (_vector_spacing << 0x5))), function at exception vector 20 too large)
+
+.vector_21      0x9fc014a0        0x0
+ *(.vector_21)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_21) <= (_vector_spacing << 0x5))), function at exception vector 21 too large)
+
+.vector_22      0x9fc014c0        0x0
+ *(.vector_22)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_22) <= (_vector_spacing << 0x5))), function at exception vector 22 too large)
+
+.vector_23      0x9fc014e0        0x0
+ *(.vector_23)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_23) <= (_vector_spacing << 0x5))), function at exception vector 23 too large)
+
+.vector_24      0x9fc01500        0x0
+ *(.vector_24)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_24) <= (_vector_spacing << 0x5))), function at exception vector 24 too large)
+
+.vector_25      0x9fc01520        0x0
+ *(.vector_25)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_25) <= (_vector_spacing << 0x5))), function at exception vector 25 too large)
+
+.vector_26      0x9fc01540        0x0
+ *(.vector_26)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_26) <= (_vector_spacing << 0x5))), function at exception vector 26 too large)
+
+.vector_27      0x9fc01560        0x0
+ *(.vector_27)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_27) <= (_vector_spacing << 0x5))), function at exception vector 27 too large)
+
+.vector_28      0x9fc01580        0x0
+ *(.vector_28)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_28) <= (_vector_spacing << 0x5))), function at exception vector 28 too large)
+
+.vector_29      0x9fc015a0        0x0
+ *(.vector_29)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_29) <= (_vector_spacing << 0x5))), function at exception vector 29 too large)
+
+.vector_30      0x9fc015c0        0x0
+ *(.vector_30)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_30) <= (_vector_spacing << 0x5))), function at exception vector 30 too large)
+
+.vector_31      0x9fc015e0        0x0
+ *(.vector_31)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_31) <= (_vector_spacing << 0x5))), function at exception vector 31 too large)
+
+.vector_32      0x9fc01600        0x0
+ *(.vector_32)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_32) <= (_vector_spacing << 0x5))), function at exception vector 32 too large)
+
+.vector_33      0x9fc01620        0x0
+ *(.vector_33)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_33) <= (_vector_spacing << 0x5))), function at exception vector 33 too large)
+
+.vector_34      0x9fc01640        0x0
+ *(.vector_34)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_34) <= (_vector_spacing << 0x5))), function at exception vector 34 too large)
+
+.vector_35      0x9fc01660        0x0
+ *(.vector_35)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_35) <= (_vector_spacing << 0x5))), function at exception vector 35 too large)
+
+.vector_36      0x9fc01680        0x0
+ *(.vector_36)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_36) <= (_vector_spacing << 0x5))), function at exception vector 36 too large)
+
+.vector_37      0x9fc016a0        0x0
+ *(.vector_37)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_37) <= (_vector_spacing << 0x5))), function at exception vector 37 too large)
+
+.vector_38      0x9fc016c0        0x0
+ *(.vector_38)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_38) <= (_vector_spacing << 0x5))), function at exception vector 38 too large)
+
+.vector_39      0x9fc016e0        0x0
+ *(.vector_39)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_39) <= (_vector_spacing << 0x5))), function at exception vector 39 too large)
+
+.vector_40      0x9fc01700        0x0
+ *(.vector_40)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_40) <= (_vector_spacing << 0x5))), function at exception vector 40 too large)
+
+.vector_41      0x9fc01720        0x0
+ *(.vector_41)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_41) <= (_vector_spacing << 0x5))), function at exception vector 41 too large)
+
+.vector_42      0x9fc01740        0x0
+ *(.vector_42)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_42) <= (_vector_spacing << 0x5))), function at exception vector 42 too large)
+
+.vector_43      0x9fc01760        0x0
+ *(.vector_43)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_43) <= (_vector_spacing << 0x5))), function at exception vector 43 too large)
+
+.vector_44      0x9fc01780        0x0
+ *(.vector_44)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_44) <= (_vector_spacing << 0x5))), function at exception vector 44 too large)
+
+.vector_45      0x9fc017a0        0x0
+ *(.vector_45)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_45) <= (_vector_spacing << 0x5))), function at exception vector 45 too large)
+
+.vector_46      0x9fc017c0        0x0
+ *(.vector_46)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_46) <= (_vector_spacing << 0x5))), function at exception vector 46 too large)
+
+.vector_47      0x9fc017e0        0x0
+ *(.vector_47)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_47) <= (_vector_spacing << 0x5))), function at exception vector 47 too large)
+
+.vector_48      0x9fc01800        0x0
+ *(.vector_48)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_48) <= (_vector_spacing << 0x5))), function at exception vector 48 too large)
+
+.vector_49      0x9fc01820        0x0
+ *(.vector_49)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_49) <= (_vector_spacing << 0x5))), function at exception vector 49 too large)
+
+.vector_50      0x9fc01840        0x0
+ *(.vector_50)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_50) <= (_vector_spacing << 0x5))), function at exception vector 50 too large)
+
+.vector_51      0x9fc01860        0x0
+ *(.vector_51)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_51) <= (_vector_spacing << 0x5))), function at exception vector 51 too large)
+
+.vector_52      0x9fc01880        0x0
+ *(.vector_52)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_52) <= (_vector_spacing << 0x5))), function at exception vector 52 too large)
+
+.vector_53      0x9fc018a0        0x0
+ *(.vector_53)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_53) <= (_vector_spacing << 0x5))), function at exception vector 53 too large)
+
+.vector_54      0x9fc018c0        0x0
+ *(.vector_54)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_54) <= (_vector_spacing << 0x5))), function at exception vector 54 too large)
+
+.vector_55      0x9fc018e0        0x0
+ *(.vector_55)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_55) <= (_vector_spacing << 0x5))), function at exception vector 55 too large)
+
+.vector_56      0x9fc01900        0x0
+ *(.vector_56)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_56) <= (_vector_spacing << 0x5))), function at exception vector 56 too large)
+
+.vector_57      0x9fc01920        0x0
+ *(.vector_57)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_57) <= (_vector_spacing << 0x5))), function at exception vector 57 too large)
+
+.vector_58      0x9fc01940        0x0
+ *(.vector_58)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_58) <= (_vector_spacing << 0x5))), function at exception vector 58 too large)
+
+.vector_59      0x9fc01960        0x0
+ *(.vector_59)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_59) <= (_vector_spacing << 0x5))), function at exception vector 59 too large)
+
+.vector_60      0x9fc01980        0x0
+ *(.vector_60)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_60) <= (_vector_spacing << 0x5))), function at exception vector 60 too large)
+
+.vector_61      0x9fc019a0        0x0
+ *(.vector_61)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_61) <= (_vector_spacing << 0x5))), function at exception vector 61 too large)
+
+.vector_62      0x9fc019c0        0x0
+ *(.vector_62)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_62) <= (_vector_spacing << 0x5))), function at exception vector 62 too large)
+
+.vector_63      0x9fc019e0        0x0
+ *(.vector_63)
+                0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_63) <= (_vector_spacing << 0x5))), function at exception vector 63 too large)
+
+.startup        0x9fc00490      0x1e0
+ *(.startup)
+ .startup       0x9fc00490      0x1e0 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+
+.text           0x9d000000    0x18d08
+                0x9d000000                _text_begin = .
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x9d000000       0x18 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+ .text          0x9d000018      0x3a4 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+                0x9d000018                AnnounceIP
+                0x9d000178                DiscoveryTask
+ .text          0x9d0003bc      0x5ec Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+                0x9d000820                ARPIsResolved
+                0x9d000550                ARPProcess
+                0x9d0004c0                ARPInit
+                0x9d000740                ARPResolve
+                0x9d000920                SwapARPPacket
+ .text          0x9d0009a8       0xec Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Delay.o
+                0x9d0009a8                DelayMs
+                0x9d000a2c                Delay10us
+ .text          0x9d000a94      0xe60 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+                0x9d000aec                DNSEndUsage
+                0x9d000b60                DNSResolve
+                0x9d000bf4                DNSIsResolved
+                0x9d000a94                DNSBeginUsage
+ .text          0x9d0018f4     0x2528 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+                0x9d001cbc                MACIsTxReady
+                0x9d002974                MACMemCopyAsync
+                0x9d0031ec                MACPutArray
+                0x9d00252c                MACSetReadPtrInRx
+                0x9d0018f4                MACInit
+                0x9d0027dc                CalcIPBufferChecksum
+                0x9d001f30                MACGetHeader
+                0x9d001d08                MACDiscardRx
+                0x9d0026d4                MACCalcRxChecksum
+                0x9d003b30                WritePHYReg
+                0x9d003d60                SetCLKOUT
+                0x9d003c48                MACPowerDown
+                0x9d002204                MACFlush
+                0x9d0025b4                MACSetWritePtr
+                0x9d002da4                MACIsMemCopyDone
+                0x9d003cec                MACPowerUp
+                0x9d003130                MACPut
+                0x9d001c7c                MACIsLinked
+                0x9d002ea4                MACGetArray
+                0x9d002df0                MACGet
+                0x9d003dbc                GetCLKOUT
+                0x9d002644                MACSetReadPtr
+                0x9d001da8                MACGetFreeRxSize
+                0x9d003758                ReadPHYReg
+                0x9d002118                MACPutHeader
+ .text          0x9d003e1c     0x1260 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+                0x9d004760                uitoa
+                0x9d003ea0                LFSRRand
+                0x9d004d28                swapl
+                0x9d004a7c                btohexa_high
+                0x9d003e1c                LFSRSeedRand
+                0x9d004cdc                swaps
+                0x9d004158                StringToIPAddress
+                0x9d004f1c                FormatNetBIOSName
+                0x9d004aec                btohexa_low
+                0x9d004db0                CalcIPChecksum
+                0x9d0049a8                hexatob
+                0x9d004b5c                stricmppgm2ram
+                0x9d004458                Base64Decode
+                0x9d004fd4                strnchr
+                0x9d004884                ultoa
+                0x9d004e8c                strupr
+                0x9d003f18                GenerateRandomDWORD
+ .text          0x9d00507c     0x36f8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+                0x9d00507c                HTTPPrint
+                0x9d0080c8                HTTPReadPostName
+                0x9d00555c                HTTPPrint_
+                0x9d008144                HTTPReadPostValue
+                0x9d007e28                HTTPURLDecode
+                0x9d0056b0                HTTPServer
+                0x9d008574                HTTPIncFile
+                0x9d0055ac                HTTPInit
+                0x9d007ffc                HTTPGetArg
+ .text          0x9d008774      0x5ec Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+                0x9d00895c                ICMPSendPing
+                0x9d0089b8                ICMPSendPingToHost
+                0x9d008cd8                ICMPBeginUsage
+                0x9d008774                ICMPProcess
+                0x9d008d30                ICMPEndUsage
+                0x9d008a24                ICMPGetReply
+ .text          0x9d008d60      0x31c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+                0x9d008d60                IPGetHeader
+                0x9d008e9c                IPPutHeader
+                0x9d008fa8                IPSetRxBuffer
+ .text          0x9d00907c     0x1818 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+                0x9d00907c                MPFSInit
+                0x9d00943c                MPFSOpenID
+                0x9d00a3c0                MPFSGetBytesRem
+                0x9d00a228                MPFSGetFlags
+                0x9d009b90                MPFSSeek
+                0x9d00a620                MPFSGetFilename
+                0x9d009888                MPFSGetArray
+                0x9d00963c                MPFSGet
+                0x9d00a730                MPFSGetPosition
+                0x9d00a2f4                MPFSGetSize
+                0x9d009104                MPFSOpen
+                0x9d00a090                MPFSGetTimestamp
+                0x9d00a7a4                MPFSGetID
+                0x9d00a46c                MPFSGetStartAddr
+                0x9d0095d0                MPFSClose
+                0x9d00a15c                MPFSGetMicrotime
+                0x9d00a53c                MPFSGetEndAddr
+                0x9d009b3c                MPFSGetLong
+ .text          0x9d00a894      0x6fc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+                0x9d00a894                NBNSTask
+ .text          0x9d00af90      0x158 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+                0x9d00af90                RebootTask
+ .text          0x9d00b0e8      0x4c0 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+                0x9d00b510                SNTPGetUTCSeconds
+                0x9d00b0e8                SNTPClient
+ .text          0x9d00b5a8      0x2b0 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+                0x9d00b610                StackTask
+                0x9d00b5a8                StackInit
+                0x9d00b808                StackApplications
+ .text          0x9d00b858     0x85ec Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+                0x9d00d038                TCPGetTxFIFOFull
+                0x9d00da48                TCPPeekArray
+                0x9d00bc8c                TCPOpen
+                0x9d00d194                TCPIsGetReady
+                0x9d00c48c                TCPClose
+                0x9d00c608                TCPIsPutReady
+                0x9d00c504                TCPGetRemoteInfo
+                0x9d00c1ac                TCPIsConnected
+                0x9d00e384                TCPFindEx
+                0x9d00c580                TCPFlush
+                0x9d00d330                TCPGet
+                0x9d00f464                TCPProcess
+                0x9d00dd0c                TCPPeek
+                0x9d00c208                TCPDisconnect
+                0x9d00d998                TCPGetRxFIFOFree
+                0x9d00c7fc                TCPPut
+                0x9d00cb50                TCPPutArray
+                0x9d00d5b8                TCPGetArray
+                0x9d00cfd4                TCPPutString
+                0x9d00e3f8                TCPTick
+                0x9d013518                TCPAdjustFIFOSize
+                0x9d00dd68                TCPFindArrayEx
+                0x9d00c100                TCPWasReset
+                0x9d00d0ec                TCPDiscard
+                0x9d00b98c                TCPInit
+ .text          0x9d013e44      0x2e8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+                0x9d013e44                TickInit
+                0x9d013fb0                TickGetDiv256
+                0x9d014004                TickGetDiv64K
+                0x9d014058                TickConvertToMilliseconds
+                0x9d013f7c                TickGet
+                0x9d0140b0                _T1Interrupt
+ .text          0x9d01412c       0xcc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART.o
+                0x9d01412c                ReadStringUART
+ .text          0x9d0141f8      0xc7c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+                0x9d01497c                UDPGet
+                0x9d014264                UDPTask
+                0x9d0146d0                UDPPutString
+                0x9d014a0c                UDPGetArray
+                0x9d0141f8                UDPInit
+                0x9d01446c                UDPSetTxBuffer
+                0x9d0148e0                UDPIsGetReady
+                0x9d014ad8                UDPDiscard
+                0x9d0144b8                UDPSetRxBuffer
+                0x9d01428c                UDPOpen
+                0x9d014508                UDPIsPutReady
+                0x9d014724                UDPFlush
+                0x9d01459c                UDPPut
+                0x9d01462c                UDPPutArray
+                0x9d0143e0                UDPClose
+                0x9d014b34                UDPProcess
+ .text          0x9d014e74     0x19fc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+                0x9d015b44                HTTPPrint_lcdtext
+                0x9d0162a8                HTTPPrint_config_dns2
+                0x9d016698                HTTPPrint_smtps_en
+                0x9d015ea0                HTTPPrint_cookievar
+                0x9d016574                HTTPPrint_ddns_service
+                0x9d0164c0                HTTPPrint_rebootaddr
+                0x9d0160c4                HTTPPrint_config_hostname
+                0x9d015ad4                HTTPPrint_pot
+                0x9d015ff4                HTTPPrintIP
+                0x9d014e74                HTTPNeedsAuth
+                0x9d016480                HTTPPrint_write_comm
+                0x9d016218                HTTPPrint_config_subnet
+                0x9d016514                HTTPPrint_ddns_user
+                0x9d016458                HTTPPrint_read_comm
+                0x9d0166ec                HTTPPrint_snmp_en
+                0x9d015d50                HTTPPrint_hellomsg
+                0x9d016740                HTTPPrint_status_ok
+                0x9d015604                HTTPPrint_version
+                0x9d015df4                HTTPPrint_cookiename
+                0x9d016260                HTTPPrint_config_dns1
+                0x9d0161d0                HTTPPrint_config_gw
+                0x9d0165f0                HTTPPrint_ddns_status_msg
+                0x9d0152ec                HTTPExecutePost
+                0x9d015f4c                HTTPPrint_uploadedmd5
+                0x9d0157c8                HTTPPrint_led
+                0x9d015944                HTTPPrint_ledSelected
+                0x9d01659c                HTTPPrint_ddns_status
+                0x9d014f04                HTTPCheckAuth
+                0x9d0164a8                HTTPPrint_reboot
+                0x9d016534                HTTPPrint_ddns_pass
+                0x9d014f84                HTTPExecuteGet
+                0x9d016118                HTTPPrint_config_dhcpchecked
+                0x9d0167d8                HTTPPrint_status_fail
+                0x9d015658                HTTPPrint_btn
+                0x9d016188                HTTPPrint_config_ip
+                0x9d016554                HTTPPrint_ddns_host
+                0x9d0162f0                HTTPPrint_config_mac
+                0x9d01555c                HTTPPrint_builddate
+ .text          0x9d016870      0xa00 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+                0x9d01689c                main
+                0x9d016a40                DisplayIPValue
+                0x9d016870                _general_exception_handler
+ .text          0x9d017270      0x1c8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+                0x9d017270                PingDemo
+ .text          0x9d017438      0x4d0 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+                0x9d017438                DoUARTConfig
+ .text          0x9d017908      0x44c C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/size\libgcc.a(_udivdi3.o)
+                0x9d017908                __udivdi3
+ .text          0x9d017d54       0x98 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memcmp.o)
+                0x9d017d54                memcmp
+ .text          0x9d017dec      0x168 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memcpy.o)
+                0x9d017dec                memcpy
+ .text          0x9d017f54       0xa8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memset.o)
+                0x9d017f54                memset
+ .text          0x9d017ffc      0x120 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strcmp.o)
+                0x9d017ffc                strcmp
+ .text          0x9d01811c      0x1a0 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strcpy.o)
+                0x9d01811c                strcpy
+ .text          0x9d0182bc      0x168 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strlen.o)
+                0x9d0182bc                strlen
+ .text.general_exception
+                0x9d018424       0xd0 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(general-exception.o)
+                0x9d018424                _general_exception_context
+ .text.exit     0x9d0184f4       0xa4 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+                0x9d0184f4                exit
+ .text.atol     0x9d018598       0x10 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o)
+                0x9d018598                atol
+ .text.atoi     0x9d0185a8       0x10 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atoi.o)
+                0x9d0185a8                atoi
+ .text.strtol   0x9d0185b8      0x1f0 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o)
+                0x9d0185b8                strtol
+ .text._filbuf_simple
+                0x9d0187a8       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                0x9d0187a8                _filbuf_simple
+ .text._fflush_simple
+                0x9d0187d0       0x68 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                0x9d0187d0                _fflush_simple
+ .text._flsbuf_simple
+                0x9d018838       0xe8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                0x9d018838                _flsbuf_simple
+ .text._fwrite_simple
+                0x9d018920       0x84 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                0x9d018920                _fwrite_simple
+ .text._fsync_simple
+                0x9d0189a4       0x34 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                0x9d0189a4                _fsync_simple
+ .text._weak_pthread_mutex_init
+                0x9d0189d8        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d0189d8                _weak_pthread_mutex_init
+                0x9d0189d8                pthread_mutex_init
+ .text._weak_pthread_mutex_destroy
+                0x9d0189e0        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d0189e0                _weak_pthread_mutex_destroy
+                0x9d0189e0                pthread_mutex_destroy
+ .text._weak_pthread_mutex_lock
+                0x9d0189e8        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d0189e8                _weak_pthread_mutex_lock
+                0x9d0189e8                pthread_mutex_lock
+ .text._weak_pthread_mutex_trylock
+                0x9d0189f0        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d0189f0                _weak_pthread_mutex_trylock
+                0x9d0189f0                pthread_mutex_trylock
+ .text._weak_pthread_mutex_unlock
+                0x9d0189f8        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d0189f8                _weak_pthread_mutex_unlock
+                0x9d0189f8                pthread_mutex_unlock
+ .text._weak_pthread_mutex_setname_np
+                0x9d018a00        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a00                pthread_mutex_setname_np
+                0x9d018a00                _weak_pthread_mutex_setname_np
+ .text._weak_pthread_mutexattr_init
+                0x9d018a08        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a08                _weak_pthread_mutexattr_init
+                0x9d018a08                pthread_mutexattr_init
+ .text._weak_pthread_mutexattr_destroy
+                0x9d018a10        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a10                pthread_mutexattr_destroy
+                0x9d018a10                _weak_pthread_mutexattr_destroy
+ .text._weak_pthread_mutexattr_setname_np
+                0x9d018a18        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a18                _weak_pthread_mutexattr_setname_np
+                0x9d018a18                pthread_mutexattr_setname_np
+ .text._weak_pthread_mutexattr_settype_np
+                0x9d018a20        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a20                _weak_pthread_mutexattr_settype_np
+                0x9d018a20                pthread_mutexattr_settype_np
+ .text._weak_pthread_sysconf_np
+                0x9d018a28        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a28                _weak_pthread_sysconf_np
+                0x9d018a28                pthread_sysconf_np
+ .text._weak_pthread_sigdisable_np
+                0x9d018a30        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a30                _weak_pthread_sigdisable_np
+                0x9d018a30                pthread_sigdisable_np
+ .text._weak_pthread_sigrestore_np
+                0x9d018a38        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a38                pthread_sigrestore_np
+                0x9d018a38                _weak_pthread_sigrestore_np
+ .text._weak__pthread_cleanup_push
+                0x9d018a40        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a40                _weak__pthread_cleanup_push
+                0x9d018a40                _pthread_cleanup_push
+ .text._weak__pthread_cleanup_pop
+                0x9d018a48        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a48                _pthread_cleanup_pop
+                0x9d018a48                _weak__pthread_cleanup_pop
+ .text._weak__pthread_cleanup_push_defer
+                0x9d018a50        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a50                _weak__pthread_cleanup_push_defer
+                0x9d018a50                _pthread_cleanup_push_defer
+ .text._weak__pthread_cleanup_pop_restore
+                0x9d018a58        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a58                _pthread_cleanup_pop_restore
+                0x9d018a58                _weak__pthread_cleanup_pop_restore
+ .text._weak_pthread_once
+                0x9d018a60       0x2c C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a60                _weak_pthread_once
+                0x9d018a60                pthread_once
+                0x9d018a60                _pthread_once
+ .text._weak_pthread_key_create
+                0x9d018a8c        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a8c                pthread_key_create
+                0x9d018a8c                _weak_pthread_key_create
+ .text._weak_pthread_setspecific
+                0x9d018a94        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a94                _weak_pthread_setspecific
+                0x9d018a94                pthread_setspecific
+ .text._weak_pthread_getspecific
+                0x9d018a9c        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018a9c                pthread_getspecific
+                0x9d018a9c                _weak_pthread_getspecific
+ .text._weak__libc_private_storage
+                0x9d018aa4        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0x9d018aa4                _libc_private_storage
+                0x9d018aa4                _weak__libc_private_storage
+ .text._bootstrap_exception_handler
+                0x9d018aac        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+                0x9d018aac                _bootstrap_exception_handler
+ .text._on_reset
+                0x9d018ab4        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+                0x9d018ab4                _on_reset
+ .text._on_bootstrap
+                0x9d018abc        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+                0x9d018abc                _on_bootstrap
+ .text          0x9d018ac4       0x18 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-nmi-handler.o)
+                0x9d018ac4                _nmi_handler
+ .text._mon_getc
+                0x9d018adc        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+                0x9d018adc                _mon_getc
+ .text._mon_write
+                0x9d018ae4       0x4c C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+                0x9d018ae4                _mon_write
+ .text._exit    0x9d018b30        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+                0x9d018b30                _exit
+ .text._mon_putc
+                0x9d018b38       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+                0x9d018b38                _mon_putc
+ .text.SoftReset
+                0x9d018b60       0x78 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(soft_reset_lib.o)
+                0x9d018b60                SoftReset
+ .text.CheKseg0CacheOff
+                0x9d018bd8       0x18 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+                0x9d018bd8                CheKseg0CacheOff
+ .text.CheKseg0CacheOn
+                0x9d018bf0       0x18 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+                0x9d018bf0                CheKseg0CacheOn
+ .text.INTDisableInterrupts
+                0x9d018c08        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+                0x9d018c08                INTDisableInterrupts
+ .text.INTRestoreInterrupts
+                0x9d018c10       0x1c C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+                0x9d018c10                INTRestoreInterrupts
+ .text.INTEnableSystemMultiVectoredInt
+                0x9d018c2c       0x34 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+                0x9d018c2c                INTEnableSystemMultiVectoredInt
+ .text.putsUART1
+                0x9d018c60       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+                0x9d018c60                putsUART1
+ .text.putsUART2
+                0x9d018cb0       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+                0x9d018cb0                putsUART2
+ .text.INTEnableInterrupts
+                0x9d018d00        0x8 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+                0x9d018d00                INTEnableInterrupts
+ *(.text.*personality*)
+ *(.gnu.warning)
+ *(.mips16.fn.*)
+ *(.mips16.call.*)
+                0x9d018d08                _text_end = .
+
+.rodata         0x9d018d08     0x89e4
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x9d018d08       0x1c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+ .rodata        0x9d018d24       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .rodata        0x9d018d44      0x6a8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+ .rodata        0x9d0193ec       0x1c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .rodata        0x9d019408        0x8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .rodata        0x9d019410       0x44 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .rodata        0x9d019454       0x88 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+                0x9d019454                TCPSocketInitializer
+ .rodata        0x9d0194dc      0x19c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+                0x9d019598                HTML_UP_ARROW
+                0x9d01959c                HTML_DOWN_ARROW
+ .rodata        0x9d019678       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+ .rodata        0x9d0196c8       0x4c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+ .rodata        0x9d019714      0x274 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+ .rodata        0x9d019988     0x7c4c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg2.o
+                0x9d019988                MPFS_Start
+ .rodata        0x9d0215d4       0x14 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+                0x9d0215d4                _io_funcs
+ .rodata        0x9d0215e8      0x104 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(ctype.o)
+                0x9d0215e8                _ctype
+ *(.rodata1)
+                0x9d0216ec                . = ALIGN (0x4)
+
+.sdata2         0x9d0216ec        0x0
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x9d0216ec                . = ALIGN (0x4)
+
+.sbss2          0x9d0216ec        0x0
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+                0x9d0216ec                . = ALIGN (0x4)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x9d0216ec       0x20
+ *(.eh_frame)
+ .eh_frame      0x9d0216ec       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/size\libgcc.a(_udivdi3.o)
+
+.dbg_data       0xa0000000        0x0
+                0xa0000000                . = (. + DEFINED (_DEBUGGER)?0x200:0x0)
+
+.data           0xa0000000       0xf4 load address 0x9d02170c
+                0xa0000000                _data_begin = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0xa0000000       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+                0xa0000000                __exfun_mx
+ .data          0xa0000020       0xd4 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+ *(.gnu.linkonce.d.*personality*)
+ *(.data1)
+                0x9d02170c                _data_image_begin = LOADADDR (.data)
+
+.eh_frame
+ *(.eh_frame)
+                0xa00080f0                _gp = (ALIGN (0x10) + 0x7ff0)
+
+.got
+ *(.got.plt)
+ *(.got)
+
+.sdata          0xa00000f4       0x18 load address 0x9d021800
+                0xa00000f4                _sdata_begin = .
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0xa00000f4        0x8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .sdata         0xa00000fc        0x4 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+ .sdata         0xa0000100        0x1 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+ .sdata         0xa0000101        0x2 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ .sdata         0xa0000103        0x2 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+ *fill*         0xa0000105        0x3 00
+ .sdata         0xa0000108        0x4 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+                0xa0000108                _libc_data
+                0xa000010c                _sdata_end = .
+
+.lit8
+ *(.lit8)
+
+.lit4
+ *(.lit4)
+                0xa000010c                . = ALIGN (0x4)
+                0xa000010c                _data_end = .
+                0xa000010c                _bss_begin = .
+
+.sbss           0xa000010c       0xb8
+                0xa000010c                _sbss_begin = .
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0xa000010c        0x8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+ .sbss          0xa0000114        0x4 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+ .sbss          0xa0000118       0x18 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .sbss          0xa0000130       0x10 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+ .sbss          0xa0000140        0xc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .sbss          0xa000014c        0x4 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+ .sbss          0xa0000150        0x8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .sbss          0xa0000158        0x8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+ .sbss          0xa0000160       0x14 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .sbss          0xa0000174        0x4 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+ .sbss          0xa0000178        0x2 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ *fill*         0xa000017a        0x2 00
+ .sbss          0xa000017c        0xc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+ .sbss          0xa0000188        0xc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+ .sbss          0xa0000194        0x8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+ .sbss          0xa000019c        0xc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+ .sbss          0xa00001a8        0x8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+ .sbss          0xa00001b0        0x4 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(errno.o)
+                0xa00001b0                errno
+ *(.scommon)
+ .scommon       0xa00001b4        0x1 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+                0xa00001b4                curHTTPID
+ *fill*         0xa00001b5        0x1 00
+ .scommon       0xa00001b6        0x6 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+                0xa00001b6                UDPTxCount
+                0xa00001b8                activeUDPSocket
+                0xa00001ba                UDPRxCount
+ .scommon       0xa00001bc        0x8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+                0xa00001bc                AN0String
+                0xa00001c4                _sbss_end = .
+
+.bss            0xa00001c4      0x420
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0xa00001c4       0x18 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+ .bss           0xa00001dc        0xc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .bss           0xa00001e8        0xc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .bss           0xa00001f4       0x78 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .bss           0xa000026c        0xc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .bss           0xa0000278      0x134 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ .bss           0xa00003ac       0x88 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+ .bss           0xa0000434       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .bss           0xa0000454        0x4 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                0xa0000454                __isthreaded
+ *(COMMON)
+ COMMON         0xa0000458       0x9c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+                0xa0000458                curHTTP
+                0xa00004e4                httpStubs
+ COMMON         0xa00004f4        0xa Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+                0xa00004f4                remoteNode
+ *fill*         0xa00004fe        0x2 00
+ COMMON         0xa0000500       0x8c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+                0xa0000500                UDPSocketInfo
+ COMMON         0xa000058c       0x57 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+                0xa000058c                UARTText
+                0xa00005b0                AppConfig
+                0xa00005e4                . = ALIGN (0x4)
+ *fill*         0xa00005e3        0x1 00
+                0xa00005e4                . = ALIGN (0x4)
+                0xa00005e4                _end = .
+                0xa00005e4                _bss_end = .
+
+.heap           0xa00005e4        0x0
+                0xa00005e4                _heap = .
+                0xa00005e4                . = (. + _min_heap_size)
+
+.stack          0xa00005e4      0x400
+                0xa00005e4                _splim = .
+                0xa00005e4                _SPLIM = .
+                0xa00009e4                . = (. + _min_stack_size)
+ *fill*         0xa00005e4      0x400 00
+
+.ramfunc        0xa0001000        0x0 load address 0x9d021818
+                0xa0001000                _ramfunc_begin = .
+ *(.ramfunc .ramfunc.*)
+                0xa0001000                . = ALIGN (0x4)
+                0xa0001000                _ramfunc_end = .
+                0x9d021818                _ramfunc_image_begin = LOADADDR (.ramfunc)
+                0x00000000                _ramfunc_length = SIZEOF (.ramfunc)
+                0x00001000                _bmxdkpba_address = (_ramfunc_begin - 0xa0000000)
+                0x00008000                _bmxdudba_address = 0x8000
+                0x00008000                _bmxdupba_address = 0x8000
+                0xa0008000                _stack = (_ramfunc_length > 0x0)?(_ramfunc_begin - 0x4):0xa0008000
+                0x00000001                ASSERT (((_min_stack_size + _min_heap_size) <= (_stack - _heap)), Not enough space to allocate both stack and heap.  Reduce heap and/or stack size.)
+
+.pdr            0x00000000     0x2400
+ *(.pdr)
+ .pdr           0x00000000       0xa0 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+ .pdr           0x000000a0       0x40 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+ .pdr           0x000000e0       0xc0 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+ .pdr           0x000001a0       0x40 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Delay.o
+ .pdr           0x000001e0       0xc0 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .pdr           0x000002a0      0x400 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+ .pdr           0x000006a0      0x220 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+ .pdr           0x000008c0      0x220 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+ .pdr           0x00000ae0       0xc0 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .pdr           0x00000ba0       0x80 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+ .pdr           0x00000c20      0x280 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .pdr           0x00000ea0       0x60 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+ .pdr           0x00000f00       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+ .pdr           0x00000f20       0x40 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .pdr           0x00000f60       0x60 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+ .pdr           0x00000fc0      0x420 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ .pdr           0x000013e0      0x100 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+ .pdr           0x000014e0       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART.o
+ .pdr           0x00001500      0x220 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+ .pdr           0x00001720      0x4e0 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+ .pdr           0x00001c00       0xc0 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+ .pdr           0x00001cc0       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+ .pdr           0x00001ce0       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+ .pdr           0x00001d00       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/size\libgcc.a(_udivdi3.o)
+ .pdr           0x00001d20       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memcmp.o)
+ .pdr           0x00001d40       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memcpy.o)
+ .pdr           0x00001d60       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memset.o)
+ .pdr           0x00001d80       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strcmp.o)
+ .pdr           0x00001da0       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strcpy.o)
+ .pdr           0x00001dc0       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strlen.o)
+ .pdr           0x00001de0       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(general-exception.o)
+ .pdr           0x00001e00       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .pdr           0x00001e20       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o)
+ .pdr           0x00001e40       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atoi.o)
+ .pdr           0x00001e60       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o)
+ .pdr           0x00001e80       0xa0 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .pdr           0x00001f20      0x2c0 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .pdr           0x000021e0       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .pdr           0x00002200       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .pdr           0x00002220       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .pdr           0x00002240       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-nmi-handler.o)
+ .pdr           0x00002260       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .pdr           0x00002280       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .pdr           0x000022a0       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .pdr           0x000022c0       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .pdr           0x000022e0       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(soft_reset_lib.o)
+ .pdr           0x00002300       0x40 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+ .pdr           0x00002340       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+ .pdr           0x00002360       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+ .pdr           0x00002380       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+ .pdr           0x000023a0       0x40 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+ .pdr           0x000023e0       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+
+.reginfo        0x00000000       0x18
+ *(.reginfo)
+ .reginfo       0x00000000       0x18 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size/crt0.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000     0x2095
+ *(.comment)
+ .comment       0x00000000       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+ .comment       0x00000050       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARCFOUR.o
+ .comment       0x000000a0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+ .comment       0x000000f0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\AutoIP.o
+ .comment       0x00000140       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyAPI.o
+ .comment       0x00000190       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BigInt.o
+ .comment       0x000001e0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Delay.o
+ .comment       0x00000230       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCP.o
+ .comment       0x00000280       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCPs.o
+ .comment       0x000002d0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .comment       0x00000320       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNSs.o
+ .comment       0x00000370       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DynDNS.o
+ .comment       0x000003c0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+ .comment       0x00000410       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENCX24J600.o
+ .comment       0x00000460       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FileSystem.o
+ .comment       0x000004b0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FTP.o
+ .comment       0x00000500       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Hashes.o
+ .comment       0x00000550       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+ .comment       0x000005a0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+ .comment       0x000005f0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP.o
+ .comment       0x00000640       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .comment       0x00000690       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+ .comment       0x000006e0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LCDBlocking.o
+ .comment       0x00000730       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .comment       0x00000780       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS.o
+ .comment       0x000007d0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+ .comment       0x00000820       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Random.o
+ .comment       0x00000870       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+ .comment       0x000008c0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\RSA.o
+ .comment       0x00000910       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTP.o
+ .comment       0x00000960       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMP.o
+ .comment       0x000009b0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3.o
+ .comment       0x00000a00       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3USM.o
+ .comment       0x00000a50       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .comment       0x00000aa0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIEEPROM.o
+ .comment       0x00000af0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIFlash.o
+ .comment       0x00000b40       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIRAM.o
+ .comment       0x00000b90       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SSL.o
+ .comment       0x00000be0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+ .comment       0x00000c30       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ .comment       0x00000c80       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCPPerformanceTest.o
+ .comment       0x00000cd0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Telnet.o
+ .comment       0x00000d20       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TFTPc.o
+ .comment       0x00000d70       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+ .comment       0x00000dc0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART2TCPBridge.o
+ .comment       0x00000e10       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART.o
+ .comment       0x00000e60       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+ .comment       0x00000eb0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDPPerformanceTest.o
+ .comment       0x00000f00       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfHelper.o
+ .comment       0x00000f50       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfLinkLocal.o
+ .comment       0x00000fa0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfMulticastDNS.o
+ .comment       0x00000ff0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+ .comment       0x00001040       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSNMPApp.o
+ .comment       0x00001090       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSSLCert.o
+ .comment       0x000010e0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+ .comment       0x00001130       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPClientDemo.o
+ .comment       0x00001180       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPServerDemo.o
+ .comment       0x000011d0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyUDPClientDemo.o
+ .comment       0x00001220       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPClient.o
+ .comment       0x00001270       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPServer.o
+ .comment       0x000012c0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LegacyHTTPApp.o
+ .comment       0x00001310       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+ .comment       0x00001360       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTPDemo.o
+ .comment       0x000013b0       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+ .comment       0x00001400       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg2.o
+ .comment       0x00001450       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg.o
+ .comment       0x000014a0       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/size\libgcc.a(_udivdi3.o)
+ .comment       0x000014f0       0x56 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memcmp.o)
+ .comment       0x00001546       0x56 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(memset.o)
+ .comment       0x0000159c       0x56 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strcmp.o)
+ .comment       0x000015f2       0x56 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strcpy.o)
+ .comment       0x00001648       0x56 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strlen.o)
+ .comment       0x0000169e       0x9d C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .comment       0x0000173b       0x9d C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o)
+ .comment       0x000017d8       0x9d C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atoi.o)
+ .comment       0x00001875       0x9f C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o)
+ .comment       0x00001914       0xa3 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+ .comment       0x000019b7       0xa4 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .comment       0x00001a5b       0x9e C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .comment       0x00001af9       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .comment       0x00001b49       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .comment       0x00001b99       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .comment       0x00001be9       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .comment       0x00001c39       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .comment       0x00001c89       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .comment       0x00001cd9       0x9e C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(ctype.o)
+ .comment       0x00001d77       0x9e C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(errno.o)
+ .comment       0x00001e15       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .comment       0x00001e65       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(soft_reset_lib.o)
+ .comment       0x00001eb5       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+ .comment       0x00001f05       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+ .comment       0x00001f55       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+ .comment       0x00001fa5       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+ .comment       0x00001ff5       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+ .comment       0x00002045       0x50 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x6b8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+ .debug_aranges
+                0x00000020       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+ .debug_aranges
+                0x00000040       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Delay.o
+ .debug_aranges
+                0x00000060       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .debug_aranges
+                0x00000080       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+ .debug_aranges
+                0x000000a0       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+ .debug_aranges
+                0x000000c0       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+ .debug_aranges
+                0x000000e0       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .debug_aranges
+                0x00000100       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+ .debug_aranges
+                0x00000120       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .debug_aranges
+                0x00000140       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+ .debug_aranges
+                0x00000160       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+ .debug_aranges
+                0x00000180       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .debug_aranges
+                0x000001a0       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+ .debug_aranges
+                0x000001c0       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ .debug_aranges
+                0x000001e0       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+ .debug_aranges
+                0x00000200       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART.o
+ .debug_aranges
+                0x00000220       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+ .debug_aranges
+                0x00000240       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+ .debug_aranges
+                0x00000260       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+ .debug_aranges
+                0x00000280       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+ .debug_aranges
+                0x000002a0       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+ .debug_aranges
+                0x000002c0       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_aranges
+                0x000002e8       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o)
+ .debug_aranges
+                0x00000310       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atoi.o)
+ .debug_aranges
+                0x00000338       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o)
+ .debug_aranges
+                0x00000360       0x48 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_aranges
+                0x000003a8       0xd0 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_aranges
+                0x00000478       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_aranges
+                0x000004a0       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_aranges
+                0x000004c8       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_aranges
+                0x000004f0       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_aranges
+                0x00000518       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_aranges
+                0x00000540       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_aranges
+                0x00000568       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_aranges
+                0x00000590       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(soft_reset_lib.o)
+ .debug_aranges
+                0x000005b8       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+ .debug_aranges
+                0x000005e8       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+ .debug_aranges
+                0x00000610       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+ .debug_aranges
+                0x00000638       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+ .debug_aranges
+                0x00000660       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+ .debug_aranges
+                0x00000690       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+
+.debug_pubnames
+                0x00000000     0x159d
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x33 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+ .debug_pubnames
+                0x00000033       0x60 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+ .debug_pubnames
+                0x00000093       0x2c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Delay.o
+ .debug_pubnames
+                0x000000bf       0x55 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .debug_pubnames
+                0x00000114      0x1b8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+ .debug_pubnames
+                0x000002cc      0x117 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+ .debug_pubnames
+                0x000003e3       0xcf Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+ .debug_pubnames
+                0x000004b2       0x7f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .debug_pubnames
+                0x00000531       0x44 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+ .debug_pubnames
+                0x00000575      0x140 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .debug_pubnames
+                0x000006b5       0x1f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+ .debug_pubnames
+                0x000006d4       0x21 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+ .debug_pubnames
+                0x000006f5       0x37 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .debug_pubnames
+                0x0000072c       0x53 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+ .debug_pubnames
+                0x0000077f      0x1ba Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ .debug_pubnames
+                0x00000939       0x7e Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+ .debug_pubnames
+                0x000009b7       0x25 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART.o
+ .debug_pubnames
+                0x000009dc      0x143 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+ .debug_pubnames
+                0x00000b1f      0x3ba Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+ .debug_pubnames
+                0x00000ed9       0x76 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+ .debug_pubnames
+                0x00000f4f       0x1f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+ .debug_pubnames
+                0x00000f6e       0x23 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+ .debug_pubnames
+                0x00000f91       0x21 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg2.o
+ .debug_pubnames
+                0x00000fb2       0x1b C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_pubnames
+                0x00000fcd       0x1b C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o)
+ .debug_pubnames
+                0x00000fe8       0x1b C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atoi.o)
+ .debug_pubnames
+                0x00001003       0x1d C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o)
+ .debug_pubnames
+                0x00001020       0x70 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_pubnames
+                0x00001090      0x2da C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_pubnames
+                0x0000136a       0x33 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_pubnames
+                0x0000139d       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_pubnames
+                0x000013bd       0x24 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_pubnames
+                0x000013e1       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_pubnames
+                0x00001401       0x21 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_pubnames
+                0x00001422       0x1c C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_pubnames
+                0x0000143e       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_pubnames
+                0x0000145e       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(soft_reset_lib.o)
+ .debug_pubnames
+                0x0000147e       0x3b C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+ .debug_pubnames
+                0x000014b9       0x2b C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+ .debug_pubnames
+                0x000014e4       0x2b C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+ .debug_pubnames
+                0x0000150f       0x36 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+ .debug_pubnames
+                0x00001545       0x2e C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+ .debug_pubnames
+                0x00001573       0x2a C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+
+.debug_info     0x00000000    0x29714
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xeb5 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+ .debug_info    0x00000eb5      0x620 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARCFOUR.o
+ .debug_info    0x000014d5      0xfc2 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+ .debug_info    0x00002497      0x61f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\AutoIP.o
+ .debug_info    0x00002ab6      0x624 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyAPI.o
+ .debug_info    0x000030da      0x61f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BigInt.o
+ .debug_info    0x000036f9      0x6b3 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Delay.o
+ .debug_info    0x00003dac      0x61d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCP.o
+ .debug_info    0x000043c9      0x61e Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCPs.o
+ .debug_info    0x000049e7     0x1246 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .debug_info    0x00005c2d      0x61d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNSs.o
+ .debug_info    0x0000624a      0x61f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DynDNS.o
+ .debug_info    0x00006869     0x2cfc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+ .debug_info    0x00009565      0x623 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENCX24J600.o
+ .debug_info    0x00009b88      0x623 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FileSystem.o
+ .debug_info    0x0000a1ab      0x61c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FTP.o
+ .debug_info    0x0000a7c7      0x61f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Hashes.o
+ .debug_info    0x0000ade6     0x1387 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+ .debug_info    0x0000c16d     0x1216 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+ .debug_info    0x0000d383      0x61d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP.o
+ .debug_info    0x0000d9a0      0xfa0 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .debug_info    0x0000e940      0xfe8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+ .debug_info    0x0000f928      0x624 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LCDBlocking.o
+ .debug_info    0x0000ff4c      0xdd0 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .debug_info    0x00010d1c      0x61d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS.o
+ .debug_info    0x00011339      0xfec Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+ .debug_info    0x00012325      0x61f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Random.o
+ .debug_info    0x00012944      0xe0e Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+ .debug_info    0x00013752      0x61c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\RSA.o
+ .debug_info    0x00013d6e      0x61d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTP.o
+ .debug_info    0x0001438b      0x61d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMP.o
+ .debug_info    0x000149a8      0x61f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3.o
+ .debug_info    0x00014fc7      0x622 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3USM.o
+ .debug_info    0x000155e9      0xf92 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .debug_info    0x0001657b      0x622 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIEEPROM.o
+ .debug_info    0x00016b9d      0x621 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIFlash.o
+ .debug_info    0x000171be      0x61f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIRAM.o
+ .debug_info    0x000177dd      0x61c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SSL.o
+ .debug_info    0x00017df9      0xe68 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+ .debug_info    0x00018c61     0x2669 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ .debug_info    0x0001b2ca      0x62b Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCPPerformanceTest.o
+ .debug_info    0x0001b8f5      0x61f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Telnet.o
+ .debug_info    0x0001bf14      0x61e Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TFTPc.o
+ .debug_info    0x0001c532      0x8c1 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+ .debug_info    0x0001cdf3      0x627 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART2TCPBridge.o
+ .debug_info    0x0001d41a      0x6e3 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART.o
+ .debug_info    0x0001dafd     0x14d7 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+ .debug_info    0x0001efd4      0x62b Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDPPerformanceTest.o
+ .debug_info    0x0001f5ff      0x627 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfHelper.o
+ .debug_info    0x0001fc26      0x62a Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfLinkLocal.o
+ .debug_info    0x00020250      0x62d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfMulticastDNS.o
+ .debug_info    0x0002087d     0x1b6b Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+ .debug_info    0x000223e8      0x60d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSNMPApp.o
+ .debug_info    0x000229f5      0x60d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSSLCert.o
+ .debug_info    0x00023002     0x15b5 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+ .debug_info    0x000245b7      0x615 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPClientDemo.o
+ .debug_info    0x00024bcc      0x615 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPServerDemo.o
+ .debug_info    0x000251e1      0x615 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyUDPClientDemo.o
+ .debug_info    0x000257f6      0x610 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPClient.o
+ .debug_info    0x00025e06      0x610 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPServer.o
+ .debug_info    0x00026416      0x60d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LegacyHTTPApp.o
+ .debug_info    0x00026a23      0x70c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+ .debug_info    0x0002712f      0x608 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTPDemo.o
+ .debug_info    0x00027737      0xde6 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+ .debug_info    0x0002851d      0x64a Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg2.o
+ .debug_info    0x00028b67      0x607 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg.o
+ .debug_info    0x0002916e       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_info    0x0002919e       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o)
+ .debug_info    0x000291ce       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atoi.o)
+ .debug_info    0x000291fe       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o)
+ .debug_info    0x0002922e       0x78 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_info    0x000292a6      0x1aa C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_info    0x00029450       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x00029480       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_info    0x000294b0       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_info    0x000294e0       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_info    0x00029510       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_info    0x00029540       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_info    0x00029570       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_info    0x000295a0       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(soft_reset_lib.o)
+ .debug_info    0x000295d0       0x42 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+ .debug_info    0x00029612       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+ .debug_info    0x00029642       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+ .debug_info    0x00029672       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+ .debug_info    0x000296a2       0x42 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+ .debug_info    0x000296e4       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+
+.debug_abbrev   0x00000000     0x5be2
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1b9 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+ .debug_abbrev  0x000001b9      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARCFOUR.o
+ .debug_abbrev  0x000002c0      0x229 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+ .debug_abbrev  0x000004e9      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\AutoIP.o
+ .debug_abbrev  0x000005f0      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyAPI.o
+ .debug_abbrev  0x000006f7      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BigInt.o
+ .debug_abbrev  0x000007fe      0x13c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Delay.o
+ .debug_abbrev  0x0000093a      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCP.o
+ .debug_abbrev  0x00000a41      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCPs.o
+ .debug_abbrev  0x00000b48      0x232 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .debug_abbrev  0x00000d7a      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNSs.o
+ .debug_abbrev  0x00000e81      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DynDNS.o
+ .debug_abbrev  0x00000f88      0x2cb Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+ .debug_abbrev  0x00001253      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENCX24J600.o
+ .debug_abbrev  0x0000135a      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FileSystem.o
+ .debug_abbrev  0x00001461      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FTP.o
+ .debug_abbrev  0x00001568      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Hashes.o
+ .debug_abbrev  0x0000166f      0x1f9 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+ .debug_abbrev  0x00001868      0x237 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+ .debug_abbrev  0x00001a9f      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP.o
+ .debug_abbrev  0x00001ba6      0x216 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .debug_abbrev  0x00001dbc      0x205 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+ .debug_abbrev  0x00001fc1      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LCDBlocking.o
+ .debug_abbrev  0x000020c8      0x22f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .debug_abbrev  0x000022f7      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS.o
+ .debug_abbrev  0x000023fe      0x210 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+ .debug_abbrev  0x0000260e      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Random.o
+ .debug_abbrev  0x00002715      0x174 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+ .debug_abbrev  0x00002889      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\RSA.o
+ .debug_abbrev  0x00002990      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTP.o
+ .debug_abbrev  0x00002a97      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMP.o
+ .debug_abbrev  0x00002b9e      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3.o
+ .debug_abbrev  0x00002ca5      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3USM.o
+ .debug_abbrev  0x00002dac      0x1b2 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .debug_abbrev  0x00002f5e      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIEEPROM.o
+ .debug_abbrev  0x00003065      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIFlash.o
+ .debug_abbrev  0x0000316c      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIRAM.o
+ .debug_abbrev  0x00003273      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SSL.o
+ .debug_abbrev  0x0000337a      0x1c5 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+ .debug_abbrev  0x0000353f      0x29b Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ .debug_abbrev  0x000037da      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCPPerformanceTest.o
+ .debug_abbrev  0x000038e1      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Telnet.o
+ .debug_abbrev  0x000039e8      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TFTPc.o
+ .debug_abbrev  0x00003aef      0x1b5 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+ .debug_abbrev  0x00003ca4      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART2TCPBridge.o
+ .debug_abbrev  0x00003dab      0x13e Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART.o
+ .debug_abbrev  0x00003ee9      0x2a4 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+ .debug_abbrev  0x0000418d      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDPPerformanceTest.o
+ .debug_abbrev  0x00004294      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfHelper.o
+ .debug_abbrev  0x0000439b      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfLinkLocal.o
+ .debug_abbrev  0x000044a2      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfMulticastDNS.o
+ .debug_abbrev  0x000045a9      0x253 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+ .debug_abbrev  0x000047fc      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSNMPApp.o
+ .debug_abbrev  0x00004903      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSSLCert.o
+ .debug_abbrev  0x00004a0a      0x2db Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+ .debug_abbrev  0x00004ce5      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPClientDemo.o
+ .debug_abbrev  0x00004dec      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPServerDemo.o
+ .debug_abbrev  0x00004ef3      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyUDPClientDemo.o
+ .debug_abbrev  0x00004ffa      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPClient.o
+ .debug_abbrev  0x00005101      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPServer.o
+ .debug_abbrev  0x00005208      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LegacyHTTPApp.o
+ .debug_abbrev  0x0000530f      0x14c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+ .debug_abbrev  0x0000545b      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTPDemo.o
+ .debug_abbrev  0x00005562      0x199 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+ .debug_abbrev  0x000056fb      0x121 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg2.o
+ .debug_abbrev  0x0000581c      0x107 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg.o
+ .debug_abbrev  0x00005923       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_abbrev  0x00005946       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o)
+ .debug_abbrev  0x00005969       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atoi.o)
+ .debug_abbrev  0x0000598c       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o)
+ .debug_abbrev  0x000059af        0x1 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobdata.o)
+ .debug_abbrev  0x000059b0       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_abbrev  0x000059d3       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_abbrev  0x000059f6       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_abbrev  0x00005a19       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_abbrev  0x00005a3c       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_abbrev  0x00005a5f       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_abbrev  0x00005a82       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_abbrev  0x00005aa5       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_abbrev  0x00005ac8        0x1 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(ctype.o)
+ .debug_abbrev  0x00005ac9        0x1 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(errno.o)
+ .debug_abbrev  0x00005aca       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_abbrev  0x00005aed       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(soft_reset_lib.o)
+ .debug_abbrev  0x00005b10       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+ .debug_abbrev  0x00005b33       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+ .debug_abbrev  0x00005b56       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+ .debug_abbrev  0x00005b79       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+ .debug_abbrev  0x00005b9c       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+ .debug_abbrev  0x00005bbf       0x23 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+
+.debug_line     0x00000000     0x82c8
+ *(.debug_line)
+ .debug_line    0x00000000      0x1f8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+ .debug_line    0x000001f8      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARCFOUR.o
+ .debug_line    0x00000331      0x21d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+ .debug_line    0x0000054e      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\AutoIP.o
+ .debug_line    0x00000687      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyAPI.o
+ .debug_line    0x000007c0      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BigInt.o
+ .debug_line    0x000008f9      0x17f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Delay.o
+ .debug_line    0x00000a78      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCP.o
+ .debug_line    0x00000bb1      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCPs.o
+ .debug_line    0x00000cea      0x2dd Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .debug_line    0x00000fc7      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNSs.o
+ .debug_line    0x00001100      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DynDNS.o
+ .debug_line    0x00001239      0x56e Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+ .debug_line    0x000017a7      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENCX24J600.o
+ .debug_line    0x000018e0      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FileSystem.o
+ .debug_line    0x00001a19      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FTP.o
+ .debug_line    0x00001b52      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Hashes.o
+ .debug_line    0x00001c8b      0x394 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+ .debug_line    0x0000201f      0x5fa Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+ .debug_line    0x00002619      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP.o
+ .debug_line    0x00002752      0x225 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .debug_line    0x00002977      0x1ea Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+ .debug_line    0x00002b61      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LCDBlocking.o
+ .debug_line    0x00002c9a      0x366 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .debug_line    0x00003000      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS.o
+ .debug_line    0x00003139      0x233 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+ .debug_line    0x0000336c      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Random.o
+ .debug_line    0x000034a5      0x1c3 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+ .debug_line    0x00003668      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\RSA.o
+ .debug_line    0x000037a1      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTP.o
+ .debug_line    0x000038da      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMP.o
+ .debug_line    0x00003a13      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3.o
+ .debug_line    0x00003b4c      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3USM.o
+ .debug_line    0x00003c85      0x20d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .debug_line    0x00003e92      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIEEPROM.o
+ .debug_line    0x00003fcb      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIFlash.o
+ .debug_line    0x00004104      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIRAM.o
+ .debug_line    0x0000423d      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SSL.o
+ .debug_line    0x00004376      0x1e8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+ .debug_line    0x0000455e      0xab6 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ .debug_line    0x00005014      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCPPerformanceTest.o
+ .debug_line    0x0000514d      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Telnet.o
+ .debug_line    0x00005286      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TFTPc.o
+ .debug_line    0x000053bf      0x1be Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+ .debug_line    0x0000557d      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART2TCPBridge.o
+ .debug_line    0x000056b6      0x17a Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART.o
+ .debug_line    0x00005830      0x2ea Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+ .debug_line    0x00005b1a      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDPPerformanceTest.o
+ .debug_line    0x00005c53      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfHelper.o
+ .debug_line    0x00005d8c      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfLinkLocal.o
+ .debug_line    0x00005ec5      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfMulticastDNS.o
+ .debug_line    0x00005ffe      0x3be Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+ .debug_line    0x000063bc      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSNMPApp.o
+ .debug_line    0x000064f5      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSSLCert.o
+ .debug_line    0x0000662e      0x315 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+ .debug_line    0x00006943      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPClientDemo.o
+ .debug_line    0x00006a7c      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPServerDemo.o
+ .debug_line    0x00006bb5      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyUDPClientDemo.o
+ .debug_line    0x00006cee      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPClient.o
+ .debug_line    0x00006e27      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPServer.o
+ .debug_line    0x00006f60      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LegacyHTTPApp.o
+ .debug_line    0x00007099      0x18b Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+ .debug_line    0x00007224      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTPDemo.o
+ .debug_line    0x0000735d      0x1dc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+ .debug_line    0x00007539      0x147 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg2.o
+ .debug_line    0x00007680      0x139 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg.o
+ .debug_line    0x000077b9       0x7d C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_line    0x00007836       0x7d C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o)
+ .debug_line    0x000078b3       0x7d C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atoi.o)
+ .debug_line    0x00007930       0x7f C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o)
+ .debug_line    0x000079af       0x84 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_line    0x00007a33       0x80 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_line    0x00007ab3       0x9e C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_line    0x00007b51       0x8b C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_line    0x00007bdc       0x8f C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_line    0x00007c6b       0x84 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_line    0x00007cef       0x85 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_line    0x00007d74       0x80 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_line    0x00007df4       0x84 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_line    0x00007e78       0x99 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(soft_reset_lib.o)
+ .debug_line    0x00007f11       0x92 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+ .debug_line    0x00007fa3       0xa3 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+ .debug_line    0x00008046       0xa3 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+ .debug_line    0x000080e9       0x9e C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+ .debug_line    0x00008187       0x9f C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+ .debug_line    0x00008226       0xa2 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+
+.debug_frame    0x00000000     0x2178
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+ .debug_frame   0x00000050       0xc8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+ .debug_frame   0x00000118       0x4c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Delay.o
+ .debug_frame   0x00000164       0xcc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .debug_frame   0x00000230      0x3ec Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+ .debug_frame   0x0000061c      0x1f8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+ .debug_frame   0x00000814      0x238 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+ .debug_frame   0x00000a4c       0xc8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .debug_frame   0x00000b14       0x90 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+ .debug_frame   0x00000ba4      0x280 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .debug_frame   0x00000e24       0x70 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+ .debug_frame   0x00000e94       0x30 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+ .debug_frame   0x00000ec4       0x50 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .debug_frame   0x00000f14       0x70 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+ .debug_frame   0x00000f84      0x420 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ .debug_frame   0x000013a4       0xe0 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+ .debug_frame   0x00001484       0x2c Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART.o
+ .debug_frame   0x000014b0      0x228 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+ .debug_frame   0x000016d8      0x4d8 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+ .debug_frame   0x00001bb0       0xcc Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+ .debug_frame   0x00001c7c       0x30 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+ .debug_frame   0x00001cac       0x30 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+ .debug_frame   0x00001cdc       0x34 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+ .debug_frame   0x00001d10       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o)
+ .debug_frame   0x00001d30       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atoi.o)
+ .debug_frame   0x00001d50       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o)
+ .debug_frame   0x00001d70       0x90 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+ .debug_frame   0x00001e00      0x178 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+ .debug_frame   0x00001f78       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+ .debug_frame   0x00001f98       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+ .debug_frame   0x00001fb8       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+ .debug_frame   0x00001fd8       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+ .debug_frame   0x00001ff8       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+ .debug_frame   0x00002028       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+ .debug_frame   0x00002048       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+ .debug_frame   0x00002068       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(soft_reset_lib.o)
+ .debug_frame   0x00002090       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+ .debug_frame   0x000020c0       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+ .debug_frame   0x000020e0       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+ .debug_frame   0x00002100       0x28 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+ .debug_frame   0x00002128       0x30 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+ .debug_frame   0x00002158       0x20 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+
+.debug_str      0x00000000     0x1358
+ *(.debug_str)
+ .debug_str     0x00000000       0x26 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Announce.o
+ .debug_str     0x00000026       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARCFOUR.o
+ .debug_str     0x00000038       0x20 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ARP.o
+ .debug_str     0x00000058       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\AutoIP.o
+ .debug_str     0x0000006a       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyAPI.o
+ .debug_str     0x0000007c       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BigInt.o
+ .debug_str     0x0000008e       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Delay.o
+ .debug_str     0x000000a0       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCP.o
+ .debug_str     0x000000b2       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DHCPs.o
+ .debug_str     0x000000c4       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNS.o
+ .debug_str     0x000000d6       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DNSs.o
+ .debug_str     0x000000e8       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\DynDNS.o
+ .debug_str     0x000000fa       0x7f Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENC28J60.o
+ .debug_str     0x00000179       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ENCX24J600.o
+ .debug_str     0x0000018b       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FileSystem.o
+ .debug_str     0x0000019d       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\FTP.o
+ .debug_str     0x000001af       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Hashes.o
+ .debug_str     0x000001c1       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Helpers.o
+ .debug_str     0x000001d3       0x2a Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP2.o
+ .debug_str     0x000001fd       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\HTTP.o
+ .debug_str     0x0000020f       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ICMP.o
+ .debug_str     0x00000221       0x1b Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\IP.o
+ .debug_str     0x0000023c       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LCDBlocking.o
+ .debug_str     0x0000024e       0x2b Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS2.o
+ .debug_str     0x00000279       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFS.o
+ .debug_str     0x0000028b       0x1d Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\NBNS.o
+ .debug_str     0x000002a8       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Random.o
+ .debug_str     0x000002ba       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Reboot.o
+ .debug_str     0x000002cc       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\RSA.o
+ .debug_str     0x000002de       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTP.o
+ .debug_str     0x000002f0       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMP.o
+ .debug_str     0x00000302       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3.o
+ .debug_str     0x00000314       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNMPv3USM.o
+ .debug_str     0x00000326       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SNTP.o
+ .debug_str     0x00000338       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIEEPROM.o
+ .debug_str     0x0000034a       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIFlash.o
+ .debug_str     0x0000035c       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SPIRAM.o
+ .debug_str     0x0000036e       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SSL.o
+ .debug_str     0x00000380       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\StackTsk.o
+ .debug_str     0x00000392       0xbe Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCP.o
+ .debug_str     0x00000450       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TCPPerformanceTest.o
+ .debug_str     0x00000462       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Telnet.o
+ .debug_str     0x00000474       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\TFTPc.o
+ .debug_str     0x00000486       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\Tick.o
+ .debug_str     0x00000498       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART2TCPBridge.o
+ .debug_str     0x000004aa       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UART.o
+ .debug_str     0x000004bc       0x48 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDP.o
+ .debug_str     0x00000504       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UDPPerformanceTest.o
+ .debug_str     0x00000516       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfHelper.o
+ .debug_str     0x00000528       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfLinkLocal.o
+ .debug_str     0x0000053a       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\ZeroconfMulticastDNS.o
+ .debug_str     0x0000054c       0x1b Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomHTTPApp.o
+ .debug_str     0x00000567       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSNMPApp.o
+ .debug_str     0x00000579       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\CustomSSLCert.o
+ .debug_str     0x0000058b       0x30 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MainDemo.o
+ .debug_str     0x000005bb       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPClientDemo.o
+ .debug_str     0x000005cd       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyTCPServerDemo.o
+ .debug_str     0x000005df       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\BerkeleyUDPClientDemo.o
+ .debug_str     0x000005f1       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPClient.o
+ .debug_str     0x00000603       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\GenericTCPServer.o
+ .debug_str     0x00000615       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\LegacyHTTPApp.o
+ .debug_str     0x00000627       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\PingDemo.o
+ .debug_str     0x00000639       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\SMTPDemo.o
+ .debug_str     0x0000064b       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\UARTConfig.o
+ .debug_str     0x0000065d       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg2.o
+ .debug_str     0x0000066f       0x12 Objects - TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60\MPFSImg.o
+ .debug_str     0x00000681       0xaa C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(exit.o)
+                                 0xaf (size before relaxing)
+ .debug_str     0x0000072b       0x65 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atol.o)
+                                 0xaf (size before relaxing)
+ .debug_str     0x00000790       0x65 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(atoi.o)
+                                 0xaf (size before relaxing)
+ .debug_str     0x000007f5       0x69 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(strtol.o)
+                                 0xb3 (size before relaxing)
+ .debug_str     0x0000085e       0xb1 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_iobfuncs.o)
+                                 0xfb (size before relaxing)
+ .debug_str     0x0000090f      0x2d3 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(stubs.o)
+                                0x31d (size before relaxing)
+ .debug_str     0x00000be2       0x9e C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-bootstrap-exception-handler.o)
+                                 0xe8 (size before relaxing)
+ .debug_str     0x00000c80       0x78 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-reset.o)
+                                 0xc2 (size before relaxing)
+ .debug_str     0x00000cf8       0x80 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(default-on-bootstrap.o)
+                                 0xca (size before relaxing)
+ .debug_str     0x00000d78       0x71 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_getc.o)
+                                 0xbb (size before relaxing)
+ .debug_str     0x00000de9       0x73 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_write.o)
+                                 0xbd (size before relaxing)
+ .debug_str     0x00000e5c       0x69 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_exit.o)
+                                 0xb3 (size before relaxing)
+ .debug_str     0x00000ec5       0x71 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libc.a(_mon_putc.o)
+                                 0xbb (size before relaxing)
+ .debug_str     0x00000f36       0x86 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(soft_reset_lib.o)
+                                 0xd0 (size before relaxing)
+ .debug_str     0x00000fbc       0x96 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(pcache.o)
+                                 0xe0 (size before relaxing)
+ .debug_str     0x00001052       0x9b C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_disable_interrupts_lib.o)
+                                 0xe5 (size before relaxing)
+ .debug_str     0x000010ed       0x9b C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_restore_interrupts_lib.o)
+                                 0xe5 (size before relaxing)
+ .debug_str     0x00001188       0xa1 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_mv_int_lib.o)
+                                 0xeb (size before relaxing)
+ .debug_str     0x00001229       0x96 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(puts_uartx_lib_legacy.o)
+                                 0xe0 (size before relaxing)
+ .debug_str     0x000012bf       0x99 C:/Program Files/Microchip/MPLAB C32 Suite/bin/../lib/gcc/pic32mx/3.4.4/../../../../pic32mx/lib/size\libmchp_peripheral_32MX460F512L.a(int_enable_interrupts_lib.o)
+                                 0xe3 (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(TCPIP Demo App - C32 - PIC32_USB_DM320003_1_ENC28J60.elf elf32-tradlittlemips)
+
+.mdebug.abi32   0x9d021818        0x0
+
+.rel.dyn        0x9d021818        0x0

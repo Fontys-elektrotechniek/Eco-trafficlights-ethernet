@@ -1,0 +1,75 @@
+/******************************************************************************
+
+    USB HID Descriptor Template File
+    
+ This file contains a HID Report Definition Template.
+ 
+ * Filename:        hidreport.c
+ * Dependancies:    TBD
+ * Processor:       TBD
+ * Hardware:        TBD
+ * Assembler:       TBD
+ * Linker:          TBD
+ * Company:         Microchip Technology, Inc.
+
+Software License Agreement
+
+The software supplied herewith by Microchip Technology Incorporated
+(the “Company”) for its PICmicro® Microcontroller is intended and
+supplied to you, the Company’s customer, for use solely and
+exclusively on Microchip PICmicro Microcontroller products. The
+software is owned by the Company and/or its supplier, and is
+protected under applicable copyright laws. All rights are reserved.
+Any use in violation of the foregoing restrictions may subject the
+user to criminal sanctions under applicable laws, as well as to
+civil liability for the breach of the terms and conditions of this
+license.
+
+THIS SOFTWARE IS PROVIDED IN AN “AS IS” CONDITION. NO WARRANTIES,
+WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED
+TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. THE COMPANY SHALL NOT,
+IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL OR
+CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
+
+Author          Date          Comments
+--------------------------------------------------------------------------------
+SJ              2006          Initial Creation
+
+*******************************************************************************/
+
+#include "USB\HIDReport.h"
+
+/**************************************************************************
+ * HID Report for a mouse
+ **************************************************************************/
+const BYTE HIDReport[] = 
+{
+    mHIDMakeShortPrefix(TAG_USAGE_PAGE,     SIZE_1),        GENERIC_DESKTOP,
+    mHIDMakeShortPrefix(TAG_USAGE,          SIZE_1),        MOUSE,
+    mHIDMakeShortPrefix(TAG_COLLECTION,     SIZE_1),        APPLICATION,
+    mHIDMakeShortPrefix(TAG_USAGE,          SIZE_1),        POINTER,
+    mHIDMakeShortPrefix(TAG_COLLECTION,     SIZE_1),        PHYSICAL,
+    mHIDMakeShortPrefix(TAG_USAGE_PAGE,     SIZE_1),        BUTTON,
+    mHIDMakeShortPrefix(TAG_USAGE_MIN,      SIZE_1),        1,
+    mHIDMakeShortPrefix(TAG_USAGE_MAX,      SIZE_1),        3,
+    mHIDMakeShortPrefix(TAG_LOGICAL_MIN,    SIZE_1),        0,
+    mHIDMakeShortPrefix(TAG_LOGICAL_MAX,    SIZE_1),        1,
+    mHIDMakeShortPrefix(TAG_REPORT_COUNT,   SIZE_1),        3,
+    mHIDMakeShortPrefix(TAG_REPORT_SIZE,    SIZE_1),        1,
+    mHIDMakeShortPrefix(TAG_INPUT,          SIZE_1),        (DATA | VARIABLE | ABSOLUTE),
+    mHIDMakeShortPrefix(TAG_REPORT_COUNT,   SIZE_1),        1,
+    mHIDMakeShortPrefix(TAG_REPORT_SIZE,    SIZE_1),        5,
+    mHIDMakeShortPrefix(TAG_INPUT,          SIZE_1),        (CONSTANT),
+    mHIDMakeShortPrefix(TAG_USAGE_PAGE,     SIZE_1),        GENERIC_DESKTOP,
+    mHIDMakeShortPrefix(TAG_USAGE,          SIZE_1),        X_DV,
+    mHIDMakeShortPrefix(TAG_USAGE,          SIZE_1),        Y_DV,
+    mHIDMakeShortPrefix(TAG_LOGICAL_MIN,    SIZE_1),        0x7F,
+    mHIDMakeShortPrefix(TAG_LOGICAL_MAX,    SIZE_1),        0x80,
+    mHIDMakeShortPrefix(TAG_REPORT_COUNT,   SIZE_1),        2,
+    mHIDMakeShortPrefix(TAG_REPORT_SIZE,    SIZE_1),        8,
+    mHIDMakeShortPrefix(TAG_INPUT,          SIZE_1),        (DATA | VARIABLE | RELATIVE),
+    mHIDMakeShortPrefix(TAG_END_COLLECTION, SIZE_0),
+    mHIDMakeShortPrefix(TAG_END_COLLECTION, SIZE_0)
+
+};
